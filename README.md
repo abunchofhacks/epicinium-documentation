@@ -10,8 +10,9 @@ At the end of the game, the winner is scored for whatever's left of the world at
 
 # Screenshots
 
-[Combat animations](https://i.imgur.com/reFeOO8.gifv)
-[Mustard gas](https://i.imgur.com/ZAE7tFv.gifv)
-[Cities at night](https://i.imgur.com/I6T3yXM.gifv)
-[In-game thermometer and hygrometer](https://i.imgur.com/dfVCk0q.gifv)
-[The eight player colors: red, blue, yellow, teal, black, pink, indigo, purple.](https://i.imgur.com/uIy8fA0.png)
+
+![Combat animations](https://i.imgur.com/reFeOO8.gifv "Combat animations")
+![Mustard gas](https://i.imgur.com/ZAE7tFv.gifv "Mustard gas")
+![Cities at night](https://i.imgur.com/I6T3yXM.gifv "Cities at night")
+![In-game thermometer and hygrometer](https://i.imgur.com/dfVCk0q.gifv "In-game thermometer and hygrometer")
+![The eight player colors: red, blue, yellow, teal, black, pink, indigo, purple.](https://i.imgur.com/uIy8fA0.png "The eight player colors: red, blue, yellow, teal, black, pink, indigo, purple.")
