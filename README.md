@@ -8,16 +8,18 @@ Building industry provides more income and allows for the production of tanks,
 but industry rapidly increases global warming to ludicrous levels.
 At the end of the game, the winner is scored for whatever's left of the world at that point.
 
-# Screenshots
+# Latest screenshot
+
+![The three types of infantry in action.](https://i.imgur.com/8JWZTbZ.gif "The three types of infantry in action.")
+
+# Older screenshots
 
 ![The eight player colors: red, blue, yellow, teal, black, pink, indigo, purple.](https://i.imgur.com/uIy8fA0.png "The eight player colors: red, blue, yellow, teal, black, pink, indigo, purple.")
 
-# Gifs
+![Combat animations in the action phase.](https://i.imgur.com/reFeOO8.gif "Combat animations in the action phase.")
 
-[Combat animations](https://i.imgur.com/reFeOO8.gifv "Combat animations")
+![Mustard gas being deployed from zeppelins.](https://i.imgur.com/ZAE7tFv.gif "Mustard gas being deployed from zeppelins.")
 
-[Mustard gas](https://i.imgur.com/ZAE7tFv.gifv "Mustard gas")
+![Cities gain power and generate income at night.](https://i.imgur.com/I6T3yXM.gif "Cities gain power and generate income at night.")
 
-[Cities at night](https://i.imgur.com/I6T3yXM.gifv "Cities at night")
-
-[In-game thermometer and hygrometer](https://i.imgur.com/dfVCk0q.gifv "In-game thermometer and hygrometer")
+![In-game thermometer and hygrometer show temperature and humidity.](https://i.imgur.com/dfVCk0q.gif "In-game thermometer and hygrometer show temperature and humidity.")
