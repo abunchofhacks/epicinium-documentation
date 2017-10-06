@@ -13,7 +13,7 @@ At the end of the game, the winner is scored for whatever's left of the world at
 # Tutorial
 
 New to Epicinium?
-We recommend reading the [tutorial page](Tutorial)
+We recommend reading the [tutorial page](Tutorial.md)
 before playing your first game.
 
 # Older screenshots
