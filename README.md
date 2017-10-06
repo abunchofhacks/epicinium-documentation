@@ -14,6 +14,8 @@ At the end of the game, the winner is scored for whatever's left of the world at
 
 # Older screenshots
 
+![Trenches offer protection and slow down enemy units.](https://i.imgur.com/NJ8XnRm.gif "Trenches offer protection and slow down enemy units.")
+
 ![The eight player colors: red, blue, yellow, teal, black, pink, indigo, purple.](https://i.imgur.com/uIy8fA0.png "The eight player colors: red, blue, yellow, teal, black, pink, indigo, purple.")
 
 ![Combat animations in the action phase.](https://i.imgur.com/reFeOO8.gif "Combat animations in the action phase.")
