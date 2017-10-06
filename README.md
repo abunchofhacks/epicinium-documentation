@@ -2,7 +2,7 @@
 
 Epicinium is a turn-based strategy game with environmental gameplay mechanics.
 
-![The three types of infantry in action.](https://i.imgur.com/8JWZTbZ.gif "The three types of infantry in action.")
+![A city under attack.](https://imgur.com/Yx4c14x.gif "A city under attack.")
 
 During the day, players give orders and watch their units execute them.
 At night, cities grow depending on the number of grasslands and forests surrounding them.
@@ -16,16 +16,18 @@ New to Epicinium?
 We recommend reading the [tutorial page](Tutorial.md)
 before playing your first game.
 
-# Older screenshots
+# Screenshots
 
-![Trenches offer protection and slow down enemy units.](https://i.imgur.com/NJ8XnRm.gif "Trenches offer protection and slow down enemy units.")
+[The eight player colors: red, blue, yellow, teal, black, pink, indigo, purple.](https://i.imgur.com/uIy8fA0.png "The eight player colors: red, blue, yellow, teal, black, pink, indigo, purple.")
 
-![The eight player colors: red, blue, yellow, teal, black, pink, indigo, purple.](https://i.imgur.com/uIy8fA0.png "The eight player colors: red, blue, yellow, teal, black, pink, indigo, purple.")
+[In-game thermometer and hygrometer show temperature and humidity.](https://i.imgur.com/dfVCk0q.gif "In-game thermometer and hygrometer show temperature and humidity.")
 
-![Combat animations in the action phase.](https://i.imgur.com/reFeOO8.gif "Combat animations in the action phase.")
+[The three types of infantry in action.](https://i.imgur.com/8JWZTbZ.gif "The three types of infantry in action.")
 
-![Mustard gas being deployed from zeppelins.](https://i.imgur.com/ZAE7tFv.gif "Mustard gas being deployed from zeppelins.")
+[Trenches offer protection and slow down enemy units.](https://i.imgur.com/NJ8XnRm.gif "Trenches offer protection and slow down enemy units.")
 
-![Cities gain power and generate income at night.](https://i.imgur.com/I6T3yXM.gif "Cities gain power and generate income at night.")
+[Combat animations in the action phase.](https://i.imgur.com/reFeOO8.gif "Combat animations in the action phase.")
 
-![In-game thermometer and hygrometer show temperature and humidity.](https://i.imgur.com/dfVCk0q.gif "In-game thermometer and hygrometer show temperature and humidity.")
+[Mustard gas being deployed from zeppelins.](https://i.imgur.com/ZAE7tFv.gif "Mustard gas being deployed from zeppelins.")
+
+[Cities gain power and generate income at night.](https://i.imgur.com/I6T3yXM.gif "Cities gain power and generate income at night.")
