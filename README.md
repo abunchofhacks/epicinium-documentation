@@ -31,3 +31,9 @@ before playing your first game.
 [Mustard gas being deployed from zeppelins.](https://i.imgur.com/ZAE7tFv.gif "Mustard gas being deployed from zeppelins.")
 
 [Cities gain power and generate income at night.](https://i.imgur.com/I6T3yXM.gif "Cities gain power and generate income at night.")
+
+# Contact
+
+Epicinium is being developed by [Sander in 't Veld](https://twitter.com/sanderintveld) and Daan Mulder.
+
+Interested in participating in the Beta? Have questions? We'd love to hear from you at epiciniumgame@gmail.com.
