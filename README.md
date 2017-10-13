@@ -39,4 +39,5 @@ before playing your first game.
 
 Epicinium is being developed by [Sander in 't Veld](https://twitter.com/sanderintveld) and Daan Mulder.
 
-Interested in participating in the Beta? Have questions? We'd love to hear from you at epiciniumgame@gmail.com.
+Interested in participating in the Beta? Have questions?
+We'd love to hear from you at epiciniumgame@gmail.com or on [our Facebook page](https://www.facebook.com/Epicinium-287091698447694/).
