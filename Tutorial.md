@@ -1,7 +1,7 @@
 Epicinium is a multiplayer strategy game with simultaneous turns.
 Each turn consists of a planning phase, where all players decide which orders they want to give their units that turn,
 followed by an action phase, where players watch as the the orders play out.
-Each player has limited vision and only see *how* an opponent's units act, not *why*.
+Each player has limited vision and only sees *how* an opponent's units act, not *why*.
 
 ![In-game UI with (in clockwise order) ready button, order list, phase list, season information, thermometer, hygrometer and wallet.](https://imgur.com/MWDTvM7.png "In-game UI with (in clockwise order) ready button, order list, phase list, season information, thermometer, hygrometer and wallet.")
 
@@ -52,3 +52,6 @@ but also negatively affects your score if you win the game.
 Global warming increases the longer a game lasts, causing chaotic weather conditions.
 Certain actions, such as building industry or bombarding forest tiles, contribute to global warming.
 You can limit your contribution by depending less on industry, but will your opponent play as cautiously?
+
+*Want more?*
+*The [wiki](https://github.com/SLiV9/epicinium/wiki) contains an in-depth exposition of all the mechanics and units in the game.*
