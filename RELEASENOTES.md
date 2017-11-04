@@ -1,3 +1,29 @@
+# 0.7.0 (4-11-2017)
+
+### Content
+- Removed singleplayer modes from the main menu.
+- Tutorial mode can be accessed by clicking the "start tutorial" button once connected to the server.
+- Added AI opponents. Once inside a lobby, add an AI player by clicking the blue plus and selecting "Add AI player". To remove them, click the blue dots and select "Remove AI player".
+- Added observer mode. To turn a player into an observer, click the blue dots and select "Move to observers". To move them back, click the blue dots again and select "Move to players". Users that join a lobby after a match has already begun automatically become observers.
+- Added replay mode. Click the "watch replay" button to create a Replay lobby.
+- Added lobby privacy. Private lobbies cannot be joined by other users.
+- New lobbies are now automatically assigned a name by the server, but can be renamed with the "rename" button.
+- Separated "Lobby" chat from "All" chat. During matches "All" chat is disabled.
+- Renamed *tiny1v1* map to *small1v1*.
+
+### Visuals & User Interface
+- Revamped the lobby screen.
+- Added dropdown boxes for selecting map, planning time and player colors.
+- Tweaked the style and colors of various interface elements.
+
+### Bugs
+- The game now no longer continues after a player has been declared victorious.
+- Fixed visual issues when rejoining a match in progress.
+- Fixed issue where tiles destroyed during combat would rebuild themselves at night.
+- Fixed issue where new trees popped up either with a very large delay or with no delay at all.
+- Fixed issue where clicking an interface element also caused units and interface elements behind it to be clicked.
+- Fixed issue where the text of an interface element was drawn over an interface element in front of it.
+
 # 0.6.0 (20-10-2017)
 
 ### Gameplay
