@@ -1,4 +1,12 @@
-# 0.7.0 (4-11-2017)
+## Hotfix 0.7.1 (5-11-2017)
+
+*This is a server-only hotfix that is compatible with release 0.7.0.*
+
+### Bugs
+- Fixed a bug where the player could spawn on the wrong side of the map when playing the tutorial online, which made it more difficult than intended.
+- Fixed a bug where colors assigned to an AI player would be permanently unavailable after the AI player was removed from the lobby.
+
+# Release 0.7.0 (4-11-2017)
 
 ### Content
 - Removed singleplayer modes from the main menu.
@@ -24,7 +32,7 @@
 - Fixed issue where clicking an interface element also caused units and interface elements behind it to be clicked.
 - Fixed issue where the text of an interface element was drawn over an interface element in front of it.
 
-# 0.6.0 (20-10-2017)
+# Release 0.6.0 (20-10-2017)
 
 ### Gameplay
 - A Tank unit executing a Shell order now fires an additional volley after the first.
@@ -66,7 +74,7 @@
 - Usernames are now required to be between 3 and 36 characters in length.
 
 
-# 0.5.0 (16-10-2017)
+# Release 0.5.0 (16-10-2017)
 
 ### Content
 - Made the tutorial AI produce weaker riflemen.
@@ -84,7 +92,7 @@
 - Added these release notes.
 
 
-# 0.4.4 (12-10-2017)
+# Release 0.4.4 (12-10-2017)
 
 ### Content
 - Added a simple AI opponent for singleplayer. (**Issue #9**)
@@ -102,5 +110,5 @@
 - Hardcoded font into the binary.
 
 
-# 0.4.2 (09-10-2017)
+# Release 0.4.2 (09-10-2017)
 *First beta version.*
