@@ -1,3 +1,14 @@
+## Hotfix 0.7.2 (7-11-2017)
+
+*This is a server-only hotfix that is compatible with release 0.7.0.*
+
+### Content
+- Modified the tutorial map and AI to be less overwhelming.
+
+### Bugs
+- Fixed issue where replays were available before the match had finished.
+- Fixed possible issue that could cause the game to crash when receiving multiple messages from the server simultaneously.
+
 ## Hotfix 0.7.1 (5-11-2017)
 
 *This is a server-only hotfix that is compatible with release 0.7.0.*
