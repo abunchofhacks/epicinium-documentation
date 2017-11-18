@@ -2,7 +2,7 @@
 
 Epicinium is a turn-based strategy game with environmental gameplay mechanics.
 
-![A city under attack.](https://imgur.com/Yx4c14x.gif "A city under attack.")
+![A city under attack.](https://i.imgur.com/xGwzyKx.gif "A city under attack.")
 
 During the day, players give orders and watch their units execute them.
 At night, cities grow depending on the number of grasslands and forests surrounding them.
@@ -21,23 +21,23 @@ before playing your first game.
 
 # Screenshots
 
+[The three types of infantry in action.](https://i.imgur.com/Ksnyybe.gif "The three types of infantry in action.")
+
+[Trenches offer protection and slow down enemy units.](https://i.imgur.com/NJ8XnRm.gif "Trenches offer protection and slow down enemy units.")
+
 [The eight player colors: red, blue, yellow, teal, black, pink, indigo, purple.](https://i.imgur.com/uIy8fA0.png "The eight player colors: red, blue, yellow, teal, black, pink, indigo, purple.")
 
 [In-game thermometer and hygrometer show temperature and humidity.](https://i.imgur.com/dfVCk0q.gif "In-game thermometer and hygrometer show temperature and humidity.")
 
-[The three types of infantry in action.](https://i.imgur.com/8JWZTbZ.gif "The three types of infantry in action.")
-
-[Trenches offer protection and slow down enemy units.](https://i.imgur.com/NJ8XnRm.gif "Trenches offer protection and slow down enemy units.")
-
-[Combat animations in the action phase.](https://i.imgur.com/reFeOO8.gif "Combat animations in the action phase.")
-
-[Mustard gas being deployed from zeppelins.](https://i.imgur.com/ZAE7tFv.gif "Mustard gas being deployed from zeppelins.")
-
 [Cities gain power and generate income at night.](https://i.imgur.com/I6T3yXM.gif "Cities gain power and generate income at night.")
+
+[Title screen with automatic updates.](https://i.imgur.com/pCW6LLS.gif "Title screen with automatic updates.")
+
+[New lobby screen with observer mode and AI players.](https://i.imgur.com/uJZQcmY.gif "New lobby screen with observer mode and AI players.")
 
 # Contact
 
 Epicinium is being developed by [Sander in 't Veld](https://twitter.com/sanderintveld) and Daan Mulder.
 
 Interested in participating in the Beta? Have questions?
-We'd love to hear from you at epiciniumgame@gmail.com or on [our Facebook page](https://www.facebook.com/Epicinium-287091698447694/).
+We'd love to hear from you at epiciniumgame@gmail.com, on [our Facebook page](https://www.facebook.com/Epicinium-287091698447694/) or in [our Discord server](https://discord.gg/XktTKrH).
