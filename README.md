@@ -11,13 +11,20 @@ but industry rapidly increases global warming to ludicrous levels.
 At the end of the game, the winner is scored for whatever's left of the world at that point.
 
 Epicinium is being developed for Windows, Linux and Mac OS X.
-Please [contact us](mailto:epiciniumgame@gmail.com) if you would like to participate in the Beta.
 
-# Tutorial
 
-New to Epicinium?
-We recommend reading the [tutorial page](Tutorial.md)
-before playing your first game.
+# Download
+
+New to Epicinium? We recommend reading the [tutorial page](Tutorial.md) before playing your first game.
+We also have a [wiki](https://github.com/SLiV9/epicinium/wiki) with a in-depth exposition of all the mechanics and units in the game.
+
+Epicinium is currently in open beta. The binaries for beta version **0.8.0** can be downloaded [here](https://github.com/SLiV9/epicinium/releases/latest).
+
+If you'd like to stay informed about the latest Epicinium updates, sign up to our public [mailing list](https://groups.google.com/forum/#!forum/epicinium) or join the [Discord server](https://discord.gg/XktTKrH).
+Discord is also where you can find opponents and have a chat.
+
+After you play a few games of Epicinium, please let us know what you think using our [feedback form](https://goo.gl/forms/dBinPxt1hR2tnufq1).
+
 
 # Screenshots
 
@@ -35,9 +42,10 @@ before playing your first game.
 
 [New lobby screen with observer mode and AI players.](https://i.imgur.com/uJZQcmY.gif "New lobby screen with observer mode and AI players.")
 
+
 # Contact
 
 Epicinium is being developed by [Sander in 't Veld](https://twitter.com/sanderintveld) and Daan Mulder.
 
-Interested in participating in the Beta? Have questions?
-We'd love to hear from you at epiciniumgame@gmail.com, on [our Facebook page](https://www.facebook.com/Epicinium-287091698447694/) or in [our Discord server](https://discord.gg/XktTKrH).
+Have questions?
+We'd love to hear from you at [epiciniumgame@gmail.com](mailto:epiciniumgame@gmail.com) or on our [Facebook page](https://www.facebook.com/Epicinium-287091698447694/).
