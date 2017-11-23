@@ -1,3 +1,43 @@
+# Release 0.8.0 (23-11-2017)
+
+### Accounts
+- The game will ask you for a username the first time you log in with version 0.8.0 and automatically log you in with that username afterwards. To log in with that username on a different computer, you need to copy the *.acc* file from the *accounts* folder. To log in as a different user, you need to override the username in the settings.
+- The server now tracks **rating points** for each player. All players start with 0 rating points. Every game you play causes you to gain rating points if the score you obtain at the end is higher than your rating, and lose points if your score is lower.
+
+### Gameplay
+- Tank units now deal trample damage to tiles when they move onto them, turning Grass to Dirt and destroying trees. A Tank unit with three tanks can even bring down buildings.
+- Lowered default humidity from 65 percent to 55 percent.
+- Lowered the maximum temperature at which grass and trees will grow from 39 degrees to 29 degrees.
+- Stone tiles now cause residual global warming.
+
+### Content
+- Reworked the maps *toad1v1*, *peaktorn1v1*, *snowcut1v1*, *spruce1v1*, *small1v1* and the tutorial map, making them more compact and fixing the total number of Grass and Forest tiles on each map to be exactly 100.
+- It is now possible to see and send 'All' chat in game as well.
+
+### Visuals & User Interface
+- Added title logo to the main menu.
+- Added connection icon to the top right of the main menu that indicates whether the game is connected to the server and whether a patch is available for download.
+- Added icons to indicate whether a user is in a lobby or in a game.
+- Added an icon to indicate whether a lobby is private.
+- Added tooltips to the phase icons and the order icons. (**Issue #22**)
+- Tweaked how colors look at night.
+
+### Bugs
+- Fixed a bug where a figure could disappear before its death animation had finished.
+- Fixed a bug where night phase mood indicators (e.g. pink hearts) were not displayed in observer mode and replay mode.
+- Fixed a bug where disconnected observers could not rejoin the lobby if it was private.
+
+### Technical
+- The game is now able to patch itself. If a patch is available, the connection icon in the top right of the main menu will show an exclamation mark. Clicking this icon will cause the game to download the necessary files. Once the download is complete, clicking the icon again installs the patch and restarts the game.
+- In AI vs AI games and replays, the server now waits between action phases until all observers have finished animating.
+- Improved the responsiveness of rejoining a match in progress.
+- Improved the stability and responsiveness of replay mode.
+- Improved resolution detection when resolution is not specified in the settings. (**Issue #23**)
+
+### Other
+- We now have a Discord bot that posts when users go online or offline.
+
+
 ## Hotfix 0.7.2 (7-11-2017)
 
 *This is a server-only hotfix that is compatible with release 0.7.0.*
@@ -9,6 +49,7 @@
 - Fixed issue where replays were available before the match had finished.
 - Fixed possible issue that could cause the game to crash when receiving multiple messages from the server simultaneously.
 
+
 ## Hotfix 0.7.1 (5-11-2017)
 
 *This is a server-only hotfix that is compatible with release 0.7.0.*
@@ -16,6 +57,7 @@
 ### Bugs
 - Fixed a bug where the player could spawn on the wrong side of the map when playing the tutorial online, which made it more difficult than intended.
 - Fixed a bug where colors assigned to an AI player would be permanently unavailable after the AI player was removed from the lobby.
+
 
 # Release 0.7.0 (4-11-2017)
 
@@ -42,6 +84,7 @@
 - Fixed issue where new trees popped up either with a very large delay or with no delay at all.
 - Fixed issue where clicking an interface element also caused units and interface elements behind it to be clicked.
 - Fixed issue where the text of an interface element was drawn over an interface element in front of it.
+
 
 # Release 0.6.0 (20-10-2017)
 
