@@ -18,7 +18,7 @@ Epicinium is being developed for Windows, Linux and Mac OS X.
 New to Epicinium? We recommend reading the [tutorial page](Tutorial.md) before playing your first game.
 We also have a [wiki](https://github.com/SLiV9/epicinium/wiki) with an in-depth exposition of all the mechanics and units in the game.
 
-Epicinium is currently in open beta. The binaries for beta version **0.8.0** can be downloaded [here](https://github.com/SLiV9/epicinium/releases/latest).
+Epicinium is currently in public beta. The binaries for beta version **0.8.0** can be downloaded [here](https://github.com/SLiV9/epicinium/releases/latest).
 
 If you'd like to stay informed about the latest Epicinium updates, sign up to our public [mailing list](https://groups.google.com/forum/#!forum/epicinium) or join the [Discord server](https://discord.gg/XktTKrH).
 Discord is also where you can find opponents and have a chat.
