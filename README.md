@@ -23,6 +23,8 @@ Epicinium is currently in open beta. The binaries for beta version **0.8.0** can
 If you'd like to stay informed about the latest Epicinium updates, sign up to our public [mailing list](https://groups.google.com/forum/#!forum/epicinium) or join the [Discord server](https://discord.gg/XktTKrH).
 Discord is also where you can find opponents and have a chat.
 
+Since the game is still in development, bugs or outright crashes may occur. If you find any bugs while playing, please [email us](epiciniumgame@gmail.com) with a short description of what happened; if you could attach the contents of the logs folder and the recordings folder, that would be especially helpful.
+
 After you play a few games of Epicinium, please let us know what you think using our [feedback form](https://goo.gl/forms/dBinPxt1hR2tnufq1).
 
 
