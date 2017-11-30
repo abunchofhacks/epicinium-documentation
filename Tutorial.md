@@ -19,8 +19,8 @@ Select a tile and right-click it to access these abilities.
 When a tile produces a unit, the size of the unit depends on the tile's *power*, which is the number of powered buildings it has.
 Using a tile to produce a unit or construct another tile reduces its power.
 
-![Cities producing rifleman units.](https://i.imgur.com/4bxL3d6.gif "Cities producing rifleman units.")
-![Cities gain power and generate income at night.](https://imgur.com/RLkeejs.gif "Cities gain power and generate income at night.")
+![City tiles producing Rifleman units.](https://i.imgur.com/TpSUSDw.gif "City tiles producing Rifleman units.")
+![Town tiles gain power and generate income at night.](https://i.imgur.com/GkemBqL.gif "Town tiles gain power and generate income at night.")
 
 At night, buildings can gain power and generate income.
 Tiles require a suitable environment in order to gain power; City and Settlement tiles thrive when surrounded by Grass and Forest tiles, whereas Industry and Barracks tiles grow when you build City or Settlement tiles nearby.
@@ -29,11 +29,11 @@ Tiles require a suitable environment in order to gain power; City and Settlement
 
 Units such as riflemen can move across the map and fight other units.
 Units have limited movement speed but will continue moving in following turns.
-Ground units will automatically attack enemy units in their path.
+Ground units will automatically attack enemy units in their path
+and fire back if attacked.
 
-
-![A rifleman unit attacks and gets counterattacked, a tank unit shells a city.](https://imgur.com/1iSHwfA.gif "A rifleman unit attacks and gets counterattacked, a tank unit shells a city.")
-![Rifleman units capturing cities.](https://imgur.com/Us1Wvrz.gif "Rifleman units capturing cities.")
+![A Rifleman units kills an enemy unit. An entrenched Gunner unit survives an attack and fires back.](https://i.imgur.com/bPG7YBf.gif "A Rifleman units kills an enemy unit. An entrenched Gunner unit survives an attack and fires back.")
+![A Rifleman unit captures a City tile. A Tank unit shells a City tile.](https://i.imgur.com/yLk1rIA.gif "A Rifleman unit captures a City tile. A Tank unit shells a City tile.")
 
 Rifleman units can capture enemy cities,
 whereas other units such as Tanks offer more destructive capabilities.
@@ -45,9 +45,9 @@ Defeat opponents by capturing or destoying all of their City tiles.
 
 Each tile has a temperature and an air humidity that determine the weather.
 Weather changes with the seasons and affects unit speed and survivability.
-Global warming increases over time and ramps up when players build more industry, causing chaotic weather conditions.
-Extreme weather can even destroy buildings and turn lush grasslands into deserts.
-This not only impedes the growth of nearby City and Settlement tiles,
+Global warming increases over time and ramps up when players build more industry, causing chaotic weather conditions
+that can destroy buildings and turn lush grasslands into deserts.
+Environmental destruction not only impedes the growth of your cities and crops,
 but also negatively affects your score if you win the game:
 at the end of the game, the winner earns 1 point for each Grass and Forest tile left on the map.
 
