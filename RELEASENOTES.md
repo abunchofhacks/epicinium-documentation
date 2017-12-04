@@ -1,3 +1,48 @@
+# Release 0.9.0 (04-12-2017)
+
+### Gameplay
+- The **Town** tile replaces the Settlement tile. The Town tile can have up to 5 buildings, generates income and can produce Settler units, but cannot produce Rifleman units.
+- Added the **Farm** tile. The Farm tile can produce Settler units and can turn all tiles around it into **Soil** tiles. In the growth phase, a Soil tile transforms into a **Crops** tile if the temperature and humidity support plant growth. The Crops tile is consumed in the night phase, generating 1 income for its owner and turning back into a Soil tile. Soil tiles and Crops tiles leave Dirt behind when destroyed.
+- The Settler unit no longer builds Settlement tiles. Instead, it can settle either a Town tile, a City tile or a Farm tile.
+- The City tile no longer generates income.
+- Barracks and Industry tiles require nearby City tiles to grow, and thus no longer benefit from nearby Settlement/Town tiles.
+- City tiles and other structure tiles now start with 1 power when they are created, instead of 0.
+- Increased the cost of City tiles to 20, up from 10.
+- Decreased the cost of Barracks and Industry tiles to 2, down from 5.
+- Decreased the starting income to 20, down from 50.
+- City tiles and other structure tiles now leave **Rubble** behind when destroyed, instead of Stone. Rubble cannot be built upon.
+- Desert can no longer be built upon.
+- Added **Ridge** tiles. Ridge tiles function the same as Mountain tiles except they are not as cold by default.
+- In the spring growth phase, Grass no longer regrows from Dirt.
+- Increased the maximum temperature at which trees and crops will grow to 39 degrees, up from 29 degrees.
+- Reduced randomness in the starting values of temperature and humidity so they are more reliable.
+- A Rifleman unit now always succeeds when capturing a tile, regardless of its size.
+- When a tile produces a non-Settler unit, the tile now loses all of its power, not just 1.
+
+### Content
+- Reworked the maps *toad1v1*, *spruce1v1* and *small1v1* to be less cold and less humid by replacing some Water and Mountain tiles with Ridge tiles.
+- Removed the maps *peaktorn1v1* and *snowcut1v1* from the map pool.
+- Added the map **oceanside1v1**.
+- Updated the AIs for new gameplay changes and wrote new one that farms (HungryHippo).
+
+### Visuals & User Interface
+- Added impact shake to various attacks and damage abilities.
+- Added camera shake on various attacks and abilities.
+- Improved timing of the Shell ability of Tank units with less than three tanks.
+- Differences in grass color (caused by temperature or humidity differences) are now more distinct, which should improve their readability.
+- Tweaked the colors of Dirt, Desert and Mountain tiles.
+- When displaying simultaneous effects such as the hearts and coins at night, if not all effects fit on the screen at once, the camera will pan multiple times.
+
+### Bugs
+- Fixed bug where a player could appear to remain online indefinitely after their game crashed. (**Issue #25**)
+- Fixed bug where the planning phase would last its entire duration even though both players were ready. (**Issue #27**)
+- Properly fixed a bug where a figure could disappear before its death animation had finished.
+- Fixed bug where Tank death animation would not play if the tank had just finished moving.
+- Fixed bug where user's rating would not update in the UI after a game was over.
+- Fixed bug where the multiplayer menu would be in an invalid state after returning to main menu and going back.
+- Fixed minor bug where the chat indicatator would keep saying NAME after renaming lobby.
+
+
 # Release 0.8.0 (23-11-2017)
 
 ### Accounts
@@ -23,7 +68,7 @@
 - Tweaked how colors look at night.
 
 ### Bugs
-- Fixed a bug where a figure could disappear before its death animation had finished.
+- ~~Fixed a bug where a figure could disappear before its death animation had finished.~~
 - Fixed a bug where night phase mood indicators (e.g. pink hearts) were not displayed in observer mode and replay mode.
 - Fixed a bug where disconnected observers could not rejoin the lobby if it was private.
 
@@ -138,7 +183,7 @@
 ### Bugs
 - Fixed issue preventing 32-bit and OS X from connecting to the server. (**Issue #18**)
 - Fixed errors preventing startup on OS X. (**Issue #17**)
-- Fixed issue where the camera would not pan when a zeppelin dropped gas.
+- ~~Fixed issue where the camera would not pan when a zeppelin dropped gas.~~
 - Fixed issue where figure footprint (selection circle) lingered after death.
 - Fixed issue where the multiplayer menu was in a wrong state after the player left a match.
 
