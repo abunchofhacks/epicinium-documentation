@@ -1,3 +1,21 @@
+# Release 0.9.1 (07-12-2017)
+
+### Gameplay
+- After the game ends, the entire map is revealed to all players.
+
+### Visuals & User Interface
+- Added an extra bar with icons for each of the weather effects. These icons light up when that weather effect is active and show a tooltip explaining their effects when hovered.
+- Made thermometer (temperature gauge) and hygrometer (humidity gauge) larger.
+- Added tooltips to the various markings on the thermometer and hygrometer.
+- The in-game chat box can now be clicked to activate it.
+- Increased the visual difference between 1 stack of Gas and 2 stacks of Gas.
+- Tweaked the colors of the Gunner's machine gun.
+
+### Bugs
+- Fixed a bug where the camera would not scroll down when the cursor was at the bottom of the screen on certain resolutions. (**Issue #24**)
+- Fixed a bug where the cursor displayed a waiting animation at the end of a game.
+- Fixed a bug where Industry tiles could lower the humidity of surrounding tiles below 35 percent.
+
 # Release 0.9.0 (04-12-2017)
 
 ### Gameplay
@@ -41,7 +59,6 @@
 - Fixed bug where user's rating would not update in the UI after a game was over.
 - Fixed bug where the multiplayer menu would be in an invalid state after returning to main menu and going back.
 - Fixed minor bug where the chat indicatator would keep saying NAME after renaming lobby.
-
 
 # Release 0.8.0 (23-11-2017)
 
