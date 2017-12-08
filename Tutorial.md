@@ -3,9 +3,9 @@ Each turn consists of a planning phase, where all players decide which orders th
 followed by an action phase, where players watch as the the orders play out.
 Each player has limited vision and only sees *how* an opponent's units act, not *why*.
 
-![In-game UI with (in clockwise order) ready button, order list, phase list, season information, thermometer, hygrometer and wallet.](https://imgur.com/MWDTvM7.png "In-game UI with (in clockwise order) ready button, order list, phase list, season information, thermometer, hygrometer and wallet.")
+![In-game UI with (in clockwise order) ready button, order list, phase list, season information, thermometer, hygrometer, weather markers and wallet.](https://i.imgur.com/LGOobH8.png "In-game UI with (in clockwise order) ready button, order list, phase list, season information, thermometer, hygrometer, weather markers and wallet.")
 
-*The red player has just ordered his rifleman unit to move through a neutral city and up to the city owned by the blue player.*
+*The red player has just ordered his Rifleman unit to move through a neutral Town and into the City owned by the blue player.*
 
 You can give up to five new orders each planning phase.
 If a unit does not complete their order during the action phase, it will continue executing that order in following action phases until it does,
