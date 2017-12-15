@@ -1,3 +1,26 @@
+# Release 0.10.0 (15-12-2017)
+
+### Gameplay
+- When a player leaves a game in progress, they resign. Once resigned, a player can rejoin the lobby as an observer but can no longer win.
+
+### Content
+- Reworked the maps *toad1v1*, *spruce1v1*, *small1v1* and *oceanside1v1* to be all have the same number of starting City tiles, Town tiles and Rifleman units.
+- In a lobby, it is now possible to change the AI and difficulty after adding an AI opponent.
+- Updated both AIs slightly, mostly to respond to difficulty setting.
+
+### Visuals & User Interface
+- After a match has ended, a diamond icon pops up over each tile that is worth points.
+
+### Bugs
+- Fixed a bug where the camera would not always pan when Crops tiles generated income at night.
+- Fixed bug where player ratings in the multiplayer menu would not always update.
+
+### Technical
+- Improved server responsiveness when a player joins a game in-progress.
+- Reduced the size of the data sent by the server at the start of a game by about 40 percent.
+- The game ceases drawing if its window is hidden or minimized. (**Issue #28**)
+
+
 # Release 0.9.1 (07-12-2017)
 
 ### Gameplay
@@ -15,6 +38,7 @@
 - Fixed a bug where the camera would not scroll down when the cursor was at the bottom of the screen on certain resolutions. (**Issue #24**)
 - Fixed a bug where the cursor displayed a waiting animation at the end of a game.
 - Fixed a bug where Industry tiles could lower the humidity of surrounding tiles below 35 percent.
+
 
 # Release 0.9.0 (04-12-2017)
 
@@ -59,6 +83,7 @@
 - Fixed bug where user's rating would not update in the UI after a game was over.
 - Fixed bug where the multiplayer menu would be in an invalid state after returning to main menu and going back.
 - Fixed minor bug where the chat indicatator would keep saying NAME after renaming lobby.
+
 
 # Release 0.8.0 (23-11-2017)
 
