@@ -1,3 +1,11 @@
+## Hotfix 0.10.1 (18-12-2017)
+
+*This is a server-only hotfix that is compatible with release 0.10.0.*
+
+### Bugs
+- Fixed issue where the tutorial opponent would be QuickQuack instead of DemoDuck.
+
+
 # Release 0.10.0 (15-12-2017)
 
 ### Gameplay
