@@ -1,3 +1,25 @@
+# Release 0.11.0 (23-12-2017)
+
+### Content
+- Added the map **oasis1v1**.
+- Added the free-for-all maps **oasis3ffa** and **beetle4ffa**.
+
+### Visuals & User Interface
+- Reworked Rifleman and Gunner unit sprites.
+- Reworked surface textures and added blending between surfaces.
+- Increased the speed at which the diamond icons appeared.
+
+### Bugs
+- Fixed a bug where unit figures would keep moving instead of dying when taking lethal damage.
+- Fixed a bug where players were able to generate broken orders by clicking on unpathable tiles, which were then discarded by the server. (**Issue #30**)
+- Fixed a bug where a starting a game while a chat message was being typed would cause that message to be sent once that player started typing again. The message is now discarded. (**Issue 29**)
+- Fixed a bug where observers watching a replay that ends in the planning phase, would not see the "game over" message.
+- Fixed a bug where HungryHippo would issue invalid Focus orders.
+
+### Technical
+- Reduced the size of the data sent to observers by about 80 percent.
+
+
 ## Hotfix 0.10.1 (18-12-2017)
 
 *This is a server-only hotfix that is compatible with release 0.10.0.*
