@@ -1,3 +1,41 @@
+# Release 0.12.0 (11-01-2018)
+
+### Gameplay
+- Decreased the maximum size of the Rifleman unit to 3, down from 5.
+- Decreased the cost of the Farm tile to 2, down from 5, and increased its maximum size to 2, up from 1. The Farm tile can now produce Rifleman units.
+- Settling a Farm tile now immediately cultivates surrounding tiles into Soil tiles. Once built, a Farm tile can still be given a cultivate order to repair any destroyed Soil tiles.
+- Decreased the cost of the Town tile to 5, down from 10.
+- Decreased the cost of the Industry tile to 0, down from 2.
+- Decreased the cost of the Tank unit to 5, down from 10.
+- Decreased the starting income to 10, down from 20.
+- Crops tiles are now considered natural (like Water tiles) when evaluating if a City, Town of Farm tile gains power.
+- Aridification (the humidity loss that occurs in cells with extreme heat) also lowers the humidity of all surrounding cells, but decreased the humidity loss for humid cells to 5, down from 10.
+- Ground pollution (the humidity loss caused by Industry tiles) now occurs in all seasons, not just in Autumn.
+
+### Content
+- Players no longer start with a Town tile but instead have an extra Rifleman unit of size 1, and City tiles start with 1 power instead of 2.
+- The in-game tutorial now has prompts to guide the player and takes place on a new map with a new AI. (**Issue #7**)
+- Updated QuickQuack to do farming because gameplay changes made it necessary to do economy.
+- Updated HungryHippo to produce and control tanks.
+
+### Visuals & User Interface
+- Added auto-pathing assistance; when issuing a Move order to a ground unit, it will now attempt to find a way around any unpathable terrain.
+- A message now appears for all players and observers whenever a player is defeated.
+- Added tooltips for the players' in-game and in-lobby icons in the multiplayer menu.
+
+### Audio
+- Added sound effects during gameplay. (**Issue #12**)
+- Added cue for beginning of planning phase. (**Issue #16**)
+
+### Bugs
+- Fixed a bug where replays from version 0.10.0 and older did not work.
+- Fixed a rare bug where valid orders were discarded for no reason.
+- Fixed an issue in free-for-all games where the server would wait for defeated players to ready up.
+- Fixed a bug where players could still control their units locally after being defeated.
+- Fixed a bug where players could not send messages with quotes in them.
+- Fixed a bug where the camera would fly past a tile being captured instead of stopping and showing it.
+
+
 # Release 0.11.0 (23-12-2017)
 
 ### Content
@@ -12,7 +50,7 @@
 ### Bugs
 - Fixed a bug where unit figures would keep moving instead of dying when taking lethal damage.
 - Fixed a bug where players were able to generate broken orders by clicking on unpathable tiles, which were then discarded by the server. (**Issue #30**)
-- Fixed a bug where a starting a game while a chat message was being typed would cause that message to be sent once that player started typing again. The message is now discarded. (**Issue 29**)
+- Fixed a bug where a starting a game while a chat message was being typed would cause that message to be sent once that player started typing again. The message is now discarded. (**Issue #29**)
 - Fixed a bug where observers watching a replay that ends in the planning phase, would not see the "game over" message.
 - Fixed a bug where HungryHippo would issue invalid Focus orders.
 
@@ -155,7 +193,7 @@
 - We now have a Discord bot that posts when users go online or offline.
 
 
-## Hotfix 0.7.2 (7-11-2017)
+## Hotfix 0.7.2 (07-11-2017)
 
 *This is a server-only hotfix that is compatible with release 0.7.0.*
 
@@ -167,7 +205,7 @@
 - Fixed possible issue that could cause the game to crash when receiving multiple messages from the server simultaneously.
 
 
-## Hotfix 0.7.1 (5-11-2017)
+## Hotfix 0.7.1 (05-11-2017)
 
 *This is a server-only hotfix that is compatible with release 0.7.0.*
 
@@ -176,7 +214,7 @@
 - Fixed a bug where colors assigned to an AI player would be permanently unavailable after the AI player was removed from the lobby.
 
 
-# Release 0.7.0 (4-11-2017)
+# Release 0.7.0 (04-11-2017)
 
 ### Content
 - Removed singleplayer modes from the main menu.
