@@ -1,3 +1,13 @@
+## Hotfix 0.13.0 (12-01-2018)
+
+*Due to a bug in the patcher, updating from v0.11.0 or earlier to v0.12.0 would result in a broken version of the game. This hotfix should allow players to first patch to v0.12.1 and then to v0.13.0.*
+
+### Bugs
+- Fixed an issue where the patcher could not install the audio folder.
+
+### Technical
+- The game is now able to patch the patcher before the patcher patches the game.
+
 # Release 0.12.0 (11-01-2018)
 
 ### Gameplay
