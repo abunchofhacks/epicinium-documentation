@@ -2,7 +2,7 @@
 
 Epicinium is a turn-based strategy game with environmental gameplay mechanics.
 
-![A city under attack.](https://i.imgur.com/nJCkTvy.gif "A city under attack.")
+![A city under attack.](https://i.imgur.com/wjlzkew.gif "A city under attack.")
 
 During the day, players give orders and watch their units execute them.
 At night, cities grow depending on the number of grasslands and forests surrounding them.
