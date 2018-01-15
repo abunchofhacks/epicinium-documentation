@@ -39,19 +39,21 @@ Rifleman units can capture enemy cities,
 whereas other units such as Tanks offer more destructive capabilities.
 Access these abilities by right-clicking a unit while it is selected.
 
-## How to win
+## Environment
+
+Each tile has a temperature and an air humidity that change with the seasons.
+Crops only grow in suitable conditions and weather effects can reduce unit speed and survivability.
+Global warming worsens over time and ramps up when players build more industry,
+leading to chaotic weather conditions
+that can destroy buildings and turn lush grasslands into deserts.
+
+![When temperatures rise above 70 degrees celcius, Firestorm ravages tiles and units alike.](https://i.imgur.com/IUU9tdE.gif "When temperatures rise above 70 degrees celcius, Firestorm ravages tiles and units alike.")
+![A Sapper unit destroys the last enemy City tile.](https://i.imgur.com/ATKFHkM.gif "A Sapper unit destroys the last enemy City tile.")
 
 Defeat opponents by capturing or destoying all of their City tiles.
-
-Each tile has a temperature and an air humidity that determine the weather.
-Weather changes with the seasons and affects unit speed and survivability.
-Global warming increases over time and ramps up when players build more industry, causing chaotic weather conditions
-that can destroy buildings and turn lush grasslands into deserts.
 Environmental destruction not only impedes the growth of your cities and crops,
 but also negatively affects your score if you win the game:
 at the end of the game, the winner earns 1 point for each Grass and Forest tile left on the map.
-
-You can limit your environmental impact by depending less on industry, but will your opponent play as cautiously?
 
 ---
 
