@@ -3,7 +3,7 @@ Each turn consists of a planning phase, where all players decide which orders th
 followed by an action phase, where players watch as the the orders play out.
 Each player has limited vision and only sees *how* an opponent's units act, not *why*.
 
-![In-game UI with (in clockwise order from top right) ready button, order list, phase list, season information, thermometer, hygrometer, weather markers and wallet.](https://i.imgur.com/zUO6T5H.png "In-game UI with (in clockwise order from top right) ready button, order list, phase list, season information, thermometer, hygrometer, weather markers and wallet.")
+![In-game UI with (in clockwise order from top right) ready button, order list, phase list, season information, thermometer, hygrometer, weather markers and wallet.](https://i.imgur.com/91fLIoG.gif "In-game UI with (in clockwise order from top right) ready button, order list, phase list, season information, thermometer, hygrometer, weather markers and wallet.")
 
 *The red player has just ordered his Rifleman unit to move through a neutral Town and into the City owned by the blue player.*
 
