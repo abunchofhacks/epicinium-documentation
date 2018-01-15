@@ -48,7 +48,7 @@ leading to chaotic weather conditions
 that can destroy buildings and turn lush grasslands into deserts.
 
 ![When temperatures rise above 70 degrees celcius, Firestorm ravages tiles and units alike.](https://i.imgur.com/IUU9tdE.gif "When temperatures rise above 70 degrees celcius, Firestorm ravages tiles and units alike.")
-![A Sapper unit destroys the last enemy City tile.](https://i.imgur.com/ATKFHkM.gif "A Sapper unit destroys the last enemy City tile.")
+![A Sapper unit destroys the last enemy City tile. All the Grass and Forest tiles are scored.](https://i.imgur.com/ATKFHkM.gif "A Sapper unit destroys the last enemy City tile. All the Grass and Forest tiles are scored.")
 
 Defeat opponents by capturing or destoying all of their City tiles.
 Environmental destruction not only impedes the growth of your cities and crops,
