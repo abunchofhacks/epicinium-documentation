@@ -3,7 +3,7 @@ Each turn consists of a planning phase, where all players decide which orders th
 followed by an action phase, where players watch as the the orders play out.
 Each player has limited vision and only sees *how* an opponent's units act, not *why*.
 
-![In-game UI with (in clockwise order) ready button, order list, phase list, season information, thermometer, hygrometer, weather markers and wallet.](https://i.imgur.com/LGOobH8.png "In-game UI with (in clockwise order) ready button, order list, phase list, season information, thermometer, hygrometer, weather markers and wallet.")
+![In-game UI with (in clockwise order from top right) ready button, order list, phase list, season information, thermometer, hygrometer, weather markers and wallet.](https://i.imgur.com/zUO6T5H.png "In-game UI with (in clockwise order from top right) ready button, order list, phase list, season information, thermometer, hygrometer, weather markers and wallet.")
 
 *The red player has just ordered his Rifleman unit to move through a neutral Town and into the City owned by the blue player.*
 
@@ -19,8 +19,8 @@ Select a tile and right-click it to access these abilities.
 When a tile produces a unit, the size of the unit depends on the tile's *power*, which is the number of powered buildings it has.
 Using a tile to produce a unit or construct another tile reduces its power.
 
-![City tiles producing Rifleman units.](https://i.imgur.com/TpSUSDw.gif "City tiles producing Rifleman units.")
-![Town tiles gain power and generate income at night.](https://i.imgur.com/GkemBqL.gif "Town tiles gain power and generate income at night.")
+![City tiles producing Rifleman units.](https://i.imgur.com/X4ZmRO5.gif "City tiles producing Rifleman units.")
+![Town tiles gain power and generate income at night.](https://i.imgur.com/W4Ly5BN.gif "Town tiles gain power and generate income at night.")
 
 At night, buildings can gain power and generate income.
 Tiles require a suitable environment in order to gain power; City and Town tiles thrive when surrounded by Grass and Forest tiles, whereas Industry and Barracks tiles grow when you build City tiles nearby.
@@ -32,8 +32,8 @@ Units have limited movement speed but will continue moving in following turns.
 Ground units will automatically attack enemy units in their path
 and fire back if attacked.
 
-![A Rifleman units kills an enemy unit. An entrenched Gunner unit survives an attack and fires back.](https://i.imgur.com/bPG7YBf.gif "A Rifleman units kills an enemy unit. An entrenched Gunner unit survives an attack and fires back.")
-![A Rifleman unit captures a City tile. A Tank unit shells a City tile.](https://i.imgur.com/yLk1rIA.gif "A Rifleman unit captures a City tile. A Tank unit shells a City tile.")
+![A Rifleman units kills an enemy unit. An entrenched Gunner unit survives an attack and fires back.](https://i.imgur.com/Q9Kqk3v.gif "A Rifleman units kills an enemy unit. An entrenched Gunner unit survives an attack and fires back.")
+![A Rifleman unit captures a City tile. A Tank unit shells a City tile.](https://i.imgur.com/BeXw1yv.gif "A Rifleman unit captures a City tile. A Tank unit shells a City tile.")
 
 Rifleman units can capture enemy cities,
 whereas other units such as Tanks offer more destructive capabilities.
