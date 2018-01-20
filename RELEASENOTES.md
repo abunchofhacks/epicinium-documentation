@@ -1,3 +1,39 @@
+# Release 0.14.0 (20-01-2017)
+
+### Gameplay
+- The City tile now generates income.
+- The Industry tile generates three income per powered stack, instead of just one per powered stack.
+- Increased the cost of the City tile to 30, up from 20.
+- Increased the cost of the Industry tile to 3, up from 0.
+- Increased the cost of the Barracks tile to 3, up from 2.
+- Increased the cost of the Rifleman unit to 10, up from 3.
+- Increased the cost of the Gunner unit to 10, up from 6.
+- Increased the cost of the Sapper unit to 10, up from 8.
+- Increased the cost of the Tank unit to 15, up from 5.
+- Increased the starting income to 20, up from 10.
+
+### Content
+- Improved phrasing of certain prompts in the in-game tutorial, and added new prompts about building and using Barracks.
+
+### Audio
+- Improved the timing of the the tank engine sound.
+
+### Visuals & User Interface
+- Unit figures are positioned more towards the center of the tile.
+- Guides that appear when a Capture, Shape, Settle, Upgrade or Produce order is given are now blue instead of orange.
+
+### Bugs
+- Fixed an issue where joining a replay in progress would skip through the entire recording at once.
+- Made the audio code thread-safe, preventing some rare crashes.
+- Fixed issue where after playing the tutorial, the tutorial map would be listed in the map picker.
+- Fixed a bug where clicking on unpathable tiles would generate invalid move orders.
+
+### Technical
+- When a player reconnects to the server after being disconnected from a game against human opponents, the player automatically rejoins the game.
+- Framerate and audio volume can now be adjusted by editing *settings.json*.
+- The client and the server now ping each other more often to keep the TCP connection alive.
+
+
 ## Hotfix 0.13.0 (12-01-2018)
 
 *Due to a bug in the patcher, updating from v0.11.0 or earlier to v0.12.0 would result in a broken version of the game. This hotfix should allow players to first patch to v0.12.1 and then to v0.13.0.*
@@ -7,6 +43,7 @@
 
 ### Technical
 - The game is now able to patch the patcher before the patcher patches the game.
+
 
 # Release 0.12.0 (11-01-2018)
 
