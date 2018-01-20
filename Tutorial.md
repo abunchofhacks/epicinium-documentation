@@ -20,7 +20,7 @@ When a tile produces a unit, the size of the unit depends on the tile's *power*,
 Using a tile to produce a unit or construct another tile reduces its power.
 
 ![City tiles producing Rifleman units.](https://i.imgur.com/X4ZmRO5.gif "City tiles producing Rifleman units.")
-![Town tiles gain power and generate income at night.](https://i.imgur.com/W4Ly5BN.gif "Town tiles gain power and generate income at night.")
+![City tiles gain power and generate income at night.](https://i.imgur.com/LoH1nYA.gif "City tiles gain power and generate income at night.")
 
 At night, buildings can gain power and generate income.
 Tiles require a suitable environment in order to gain power; City and Town tiles thrive when surrounded by Grass and Forest tiles, whereas Industry and Barracks tiles grow when you build City tiles nearby.
