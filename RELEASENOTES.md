@@ -1,4 +1,48 @@
-# Release 0.14.0 (20-01-2017)
+# Release 0.15.0 (27-01-2018)
+
+### Gameplay
+- Removed temperature from the game.
+- Humidity ranges from 0 to 4, instead of from 0 to 100. Water and Mountain tiles cause nearby spaces to start with more than 2 humidity. Desert tiles can cause nearby spaces to start with only 1 humidity.
+- Each space can have up to 1 chaos counter. Chaos counters no longer influence the weather on the spaces they are on; only the total number of chaos counters matters. When a chaos counter would be placed on a space that already has a chaos counter, it is placed on a random other space instead.
+- Aridification occurs at random on 8% of the map for every 20% of the map that is covered by chaos.
+- Aridification lowers humidity by 1, instead of by 5 percent point.
+- Aridification no longer lowers the humidity of surrounding tiles.
+- Industry tiles lower humidity of surrounding tiles by 1, instead of by 10 percent point. This only occurs in Autumn.
+- Gas lowers humidity by 1, instead of by 10 percent point.
+- Degradation occurs when a Grass tile has no humidity.
+- Desertification occurs when a Dirt tile has no humidity and at least 40% of the map is covered by chaos.
+- Snow occurs in Winter on all spaces with at least 1 humidity.
+- Frostbite occurs in Winter on spaces without buildings or trees on them if at least 20% of the map is covered by chaos, on spaces with 1 building or tree on them if at least 40% of the map is covered, etcetera.
+- Firestorm occurs in Summer at random on 8% of the map for every 20% of the map that is covered by chaos. Firestorm avoids City, Town, Farm, Barracks, Industry and Airfield tiles if possible.
+- Bonedrought occurs on Desert tiles if at least 40% of the map is covered by chaos.
+- Once 100% of the map is covered by chaos, Death is placed at random on one random City, Town, Farm, Barracks, Industry or Airfield for every player every Growth phase. Once placed, Death never disappears.
+- Reduced chaos emission of Industry tiles to 5, down from 25.
+- Reduced chaos emission of City tiles to 2, down from 5.
+- Reduced chaos emission of Town, Farm, Barracks, Airfield and Rubble tiles to 1, down from 2.
+
+### Content
+- Altered the *spruce1v1* map slightly to make the top area less restrictive.
+- Cropped the *oasis3ffa* map and expanded the *beetle4ffa* map so they have the correct number of tiles for the new chaos system.
+
+### Audio
+- Unit spawn sounds are no longer played during a rejoin.
+- Foot soldier spawn is now three footsteps instead of one.
+- Separate volumes for gameplay and music.
+- Made volume behave exponentially.
+- Made panning behave in accordance to a constant-power rule.
+
+### Visuals & User Interface
+- Removed the thermometer.
+- The hygrometer now has four segments to indicate how many humidity a space has.
+- A new "chaometer" shows a known lower bound and possible upper bound of the total number of chaos counters, based on your current vision of the map.
+- The camera no longer pans to show enemy cities gaining power.
+- The chat window expands to cover most of the screen, and only shows a small preview when collapsed.
+
+### Bugs
+- Fixed a bug where buildings and trees could be improperly placed.
+
+
+# Release 0.14.0 (20-01-2018)
 
 ### Gameplay
 - The City tile now generates income.

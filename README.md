@@ -30,6 +30,11 @@ After you play a few games of Epicinium, please let us know what you think using
 Since the game is still in development, bugs or outright crashes may occur. If you find any bugs while playing, please [email us](epiciniumgame@gmail.com) with a short description of what happened; if you could attach the contents of the logs folder and the recordings folder, that would be especially helpful.
 
 
+# Weekly playtests
+
+Every Saturday from [20:00 to 0:00 GMT](http://bit.ly/2nbzgyU), we hold an online playtest session. Download the client and join in for some fun and games! We also livestream these events on Sander's [Twitch channel](http://www.twitch.tv/sliv9).
+
+
 # Contact
 
 Epicinium is being developed by [Sander in 't Veld](https://twitter.com/sanderintveld) and Daan Mulder.
