@@ -18,9 +18,9 @@ Epicinium is being developed for Windows, Linux and Mac OS X.
 New to Epicinium? We recommend taking a look at the [overview page](Tutorial.md) or starting the in-game tutorial before playing your first game.
 We also have a [wiki](https://github.com/SLiV9/epicinium/wiki) with an in-depth exposition of all the mechanics and units in the game.
 
-Epicinium is currently in public beta. The binaries for beta version **0.14.0** can be downloaded [here](https://github.com/SLiV9/epicinium/releases/latest).
+Epicinium is currently in public beta. The binaries for beta version **0.15.0** can be downloaded [here](https://github.com/SLiV9/epicinium/releases/latest).
 
-![When temperatures rise above 70 degrees celcius, Firestorm ravages tiles and units alike.](https://i.imgur.com/IUU9tdE.gif "When temperatures rise above 70 degrees celcius, Firestorm ravages tiles and units alike.")
+![When global warming reaches critical levels, Firestorm ravages tiles and units alike.](https://i.imgur.com/IUU9tdE.gif "When global warming reaches critical levels, Firestorm ravages tiles and units alike.")
 ![A Sapper unit destroys the last enemy City tile. All the Grass and Forest tiles are scored.](https://i.imgur.com/ATKFHkM.gif "A Sapper unit destroys the last enemy City tile. All the Grass and Forest tiles are scored.")
 
 If you'd like to stay informed about the latest Epicinium updates, sign up to our public [mailing list](https://groups.google.com/group/epicinium) or join the [Discord server](https://discord.gg/XktTKrH).
