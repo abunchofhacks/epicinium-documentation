@@ -3,7 +3,7 @@ Each turn consists of a planning phase, where all players decide which orders th
 followed by an action phase, where players watch as the the orders play out.
 Each player has limited vision and only sees *how* an opponent's units act, not *why*.
 
-![In-game UI with (in clockwise order from top right) ready button, order list, phase list, season information, thermometer, hygrometer, weather markers and wallet.](https://i.imgur.com/91fLIoG.gif "In-game UI with (in clockwise order from top right) ready button, order list, phase list, season information, thermometer, hygrometer, weather markers and wallet.")
+![In-game UI with (in clockwise order from top right) ready button, order list, phase list, season information, hygrometer, chaometer, weather markers and wallet.](https://i.imgur.com/EaFVXEV.gif "In-game UI with (in clockwise order from top right) ready button, order list, phase list, season information, hygrometer, chaometer, weather markers and wallet.")
 
 *The red player has just ordered his Rifleman unit to move through a neutral Town and into the City owned by the blue player.*
 
@@ -47,7 +47,7 @@ Global warming worsens over time and ramps up when players build more industry,
 leading to chaotic weather conditions
 that can destroy buildings and turn lush grasslands into deserts.
 
-![When temperatures rise above 70 degrees celcius, Firestorm ravages tiles and units alike.](https://i.imgur.com/IUU9tdE.gif "When temperatures rise above 70 degrees celcius, Firestorm ravages tiles and units alike.")
+![When global warming reaches critical levels, Firestorm ravages tiles and units alike.](https://i.imgur.com/yqfj0kG.gif "When global warming reaches critical levels, Firestorm ravages tiles and units alike.")
 ![A Sapper unit destroys the last enemy City tile. All the Grass and Forest tiles are scored.](https://i.imgur.com/ATKFHkM.gif "A Sapper unit destroys the last enemy City tile. All the Grass and Forest tiles are scored.")
 
 Defeat opponents by capturing or destoying all of their City tiles.
