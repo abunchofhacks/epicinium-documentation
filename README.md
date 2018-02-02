@@ -15,16 +15,14 @@ Epicinium is being developed for Windows, Linux and Mac OS X.
 
 # Download
 
-New to Epicinium? We recommend taking a look at the [overview page](Tutorial.md) or starting the in-game tutorial before playing your first game.
+New to Epicinium? There are several resources available to get started. You can play the in-game tutorial, take a look at the [overview page](Tutorial.md) or watch the [introduction video](https://youtu.be/Ffmvt9w9xsA).
 We also have a [wiki](https://github.com/SLiV9/epicinium/wiki) with an in-depth exposition of all the mechanics and units in the game.
 
-Epicinium is currently in public beta. The binaries for beta version **0.15.0** can be downloaded [here](https://github.com/SLiV9/epicinium/releases/latest).
+Epicinium is currently in public beta. The binaries for beta version **0.15.0** can be downloaded [here](https://github.com/SLiV9/epicinium/releases/latest) or at our itch.io [project page](https://unarmedlad.itch.io/epicinium-beta).
 
 ![When global warming reaches critical levels, Firestorm ravages tiles and units alike.](https://i.imgur.com/yqfj0kG.gif "When global warming reaches critical levels, Firestorm ravages tiles and units alike.")
 ![A Sapper unit destroys the last enemy City tile. All the Grass and Forest tiles are scored.](https://i.imgur.com/ATKFHkM.gif "A Sapper unit destroys the last enemy City tile. All the Grass and Forest tiles are scored.")
 
-If you'd like to stay informed about the latest Epicinium updates, sign up to our public [mailing list](https://groups.google.com/group/epicinium) or join the [Discord server](https://discord.gg/XktTKrH).
-Discord is also where you can find opponents and have a chat.
 After you play a few games of Epicinium, please let us know what you think using our [feedback form](https://goo.gl/forms/dBinPxt1hR2tnufq1).
 
 Since the game is still in development, bugs or outright crashes may occur. If you find any bugs while playing, please [email us](epiciniumgame@gmail.com) with a short description of what happened; if you could attach the contents of the logs folder and the recordings folder, that would be especially helpful.
@@ -40,4 +38,14 @@ Every Saturday from [20:00 to 0:00 GMT](http://bit.ly/2nbzgyU), we hold an onlin
 Epicinium is being developed by [Sander in 't Veld](https://twitter.com/sanderintveld) and Daan Mulder.
 
 Have questions?
-We'd love to hear from you at [epiciniumgame@gmail.com](mailto:epiciniumgame@gmail.com) or on our [Facebook page](https://www.facebook.com/EpiciniumStrategy/).
+We'd love to hear from you at [epiciniumgame@gmail.com](mailto:epiciniumgame@gmail.com).
+
+
+# Links
+
+* [itch.io](https://unarmedlad.itch.io/epicinium-beta)
+* [Facebook](https://www.facebook.com/EpiciniumStrategy)
+* [Twitter](https://twitter.com/EpiciniumGame)
+* [Mailing list](http://groups.google.com/group/epicinium) (stay informed about the latest Epicinium events and updates)
+* [Discord](http://discord.gg/XktTKrH) (find opponents and have a chat with the developers)
+* [Twitch](https://www.twitch.tv/sliv9) (Sander streams the weekly playtests and occasionally development; watch past streams)
