@@ -1,3 +1,14 @@
+## Hotfix 0.15.1 (02-02-2018)
+
+*This is a server-only hotfix that is compatible with release 0.15.0.*
+
+### Bugs
+- Fixed bug where Dirt could turn to Desert before 20% of the map is covered by chaos.
+
+### Technical
+- When all players are disconnected from a non-tutorial game in progress, the lobby is not disbanded immediately but remains alive for ten minutes.
+
+
 # Release 0.15.0 (27-01-2018)
 
 ### Gameplay
@@ -10,7 +21,7 @@
 - Industry tiles lower humidity of surrounding tiles by 1, instead of by 10 percent point. This only occurs in Autumn.
 - Gas lowers humidity by 1, instead of by 10 percent point.
 - Degradation occurs when a Grass tile has no humidity.
-- Desertification occurs when a Dirt tile has no humidity and at least 40% of the map is covered by chaos.
+- Desertification occurs when a Dirt tile has no humidity and at least 20% of the map is covered by chaos.
 - Snow occurs in Winter on all spaces with at least 1 humidity.
 - Frostbite occurs in Winter on spaces without buildings or trees on them if at least 20% of the map is covered by chaos, on spaces with 1 building or tree on them if at least 40% of the map is covered, etcetera.
 - Firestorm occurs in Summer at random on 8% of the map for every 20% of the map that is covered by chaos. Firestorm avoids City, Town, Farm, Barracks, Industry and Airfield tiles if possible.
