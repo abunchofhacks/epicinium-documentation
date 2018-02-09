@@ -1,9 +1,43 @@
+# Release 0.16.0 (09-02-2018)
+
+### Gameplay
+- Mountain tiles now cause nearby spaces to start with 4 humidity.
+- Water tiles no longer cause nearby spaces to start with more than 3 humidity.
+- Snow also occurs in Spring, Summer and Autumn on spaces with 4 humidity.
+- Aridification also lowers the humidity of surrounding tiles.
+- Firestorm occurs in Summer at random on 24% of the map for every 40% of the map that is covered by chaos, instead of 8% for every 20%.
+- Bonedrought occurs on Desert tiles if at least 60% of the map is covered by chaos, up from 40%.
+- Bonedrought also occurs on City, Town, Farm, Barracks, Industry, Airfield and Rubble tiles if at least 80% of the map is covered by chaos.
+- Death is placed on two random City, Town, Farm, Barracks, Industry or Airfield tiles for every player, up from one per player.
+- If a tile or unit is affected by multiple hitpoint modifiers, such as Frostbite and Bonedrought, its hitpoints can be lowered by more than 1, but not below 1.
+
+### Visuals & User Interface
+- Swapped the positions of the chaometer and the weather marker gauge.
+- Added an in-game panel that displays which player is playing as what color. Access this panel by clicking on the diamond button in the top left of the screen. For observers, a similar panel can be accessed by clicking the coin button; this panel also shows how much money each player has.
+- The "start game" button is disabled when there are not enough players to start a game.
+- Added text to main menu that displays when you have been disconnected from the server and tells you to press 'PLAY' to rejoin.
+
+### Audio
+- Added a delay between building destruction sounds to reduce the loudness of Upgrade and Death animations.
+
+### Bugs
+- Fixed GPU memory leak that could cause the game to crash. (**Issue #32**)
+- Fixed bug where the chaometer indicated values slightly lower then intended.
+- Fixed bug where the chaometer could grow beyond its container.
+- Fixed bug where Dirt turns to Desert before 20% of the map is covered by chaos.
+- Fixed bug where AI difficulty was not synchronized correctly when a player joined a lobby.
+- Fixed bug where orders would sometimes not be sent at the end of the planning phase if a player did not press the ready button.
+
+### Technical
+- If the game was installed via the Itch.io desktop application or via the GameJolt desktop application, the game no longer patches itself to prevent extraneous patching.
+
+
 ## Hotfix 0.15.1 (02-02-2018)
 
 *This is a server-only hotfix that is compatible with release 0.15.0.*
 
 ### Bugs
-- Fixed bug where Dirt could turn to Desert before 20% of the map is covered by chaos.
+- ~~Fixed bug where Dirt turns to Desert before 20% of the map is covered by chaos.~~
 
 ### Technical
 - When all players are disconnected from a non-tutorial game in progress, the lobby is not disbanded immediately but remains alive for ten minutes.
