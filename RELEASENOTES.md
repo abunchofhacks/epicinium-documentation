@@ -1,3 +1,13 @@
+# Release 0.16.1 (16-02-2018)
+
+### Visuals & User Interface
+- Added a settings menu. (**Issue #3**)
+
+### Technical
+- Removed unused rulesets from the *rulesets* folder.
+- Reduced RAM usage by about 75%.
+
+
 # Release 0.16.0 (09-02-2018)
 
 ### Gameplay
