@@ -1,3 +1,46 @@
+# Release 0.17.0 (01-03-2018)
+
+*Due to a bug in the patcher, Windows users may need to update manually.*
+
+### Gameplay
+- Snow, Frostbite, Firestorm, Bonedrought and Death also update at the end of every Night phase.
+- Death is placed on one random tile per player per Weather or Night phase, instead of two random tiles per player per Weather phase.
+
+### Content
+- Altered the bottom of the *spruce1v1* map slightly.
+
+### Visuals & User Interface
+- Added UI elements that show the hitpoints, movement speed, vision radius, attack damage, ability volleys, ability range and income of units and tiles under the cursor.
+- At night, clouds of Gas appear transparent instead of invisible.
+- Before a unit fires, its figures show a short aim animation.
+- When a unit is triggered to fire because of a Focus Attack of another unit or because of an Attack of Opportunity, an exclamation mark pops up above each of its figures.
+- When a moving unit is part of an Attack of Opportunity, it briefly stops moving.
+- Units without orders have a question mark pop up until they are selected.
+- Target guides now blink to help differentiate them from order guides.
+- The color of humid grass is now consistent within each map, but varies between maps.
+- Adjusted the colorization of dry grass to be more readable across all maps.
+- The pause icon that appears in the tutorial can now be clicked to unpause the game.
+- In the multiplayer menu's playerlist and lobby, the player's own username is now colored dark red to distinguish it from other usernames.
+
+### Audio
+- Added titlescreen music. (**Issue #11**)
+- Increased overall loudness of the game.
+- Decreased relative loudness of explosions and collapses.
+
+### Bugs
+- Fixed some bugs where the main menu would give incorrect or misleading information regarding the connection status.
+- Fixed a bug where the settings would not be saved if settings.json was missing.
+
+### Technical
+- Added a notification for when the server takes more than 5 seconds to respond so the player knows what is going on.
+- The game will now attempt to reconnect after the server has not responded for 33 seconds, instead of 66 seconds.
+- The game will now always attempt to reconnect when the connection closes unexpectedly, instead of only in the case where the server seems up but does not respond to ping.
+- The game will now keep attempting to reconnect after losing connection.
+- Improved behavior and information when the server is shutting down for maintenance.
+- Made the audio mixer more efficient to prevent audio playback issues on slow machines.
+- Fixed a bug that prevented patches from being installed correctly under Windows.
+
+
 # Release 0.16.1 (16-02-2018)
 
 ### Visuals & User Interface
