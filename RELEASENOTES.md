@@ -1,3 +1,12 @@
+## Hotfix 0.17.1 (12-03-2018)
+
+*This is a server-only hotfix that is compatible with release 0.17.0.*
+
+### Bugs
+- Fixed an issue where replays from version 0.17.0 could not be viewed due to missing data.
+- Fixed an issue where missing data while viewing a replay caused the lobby to crash.
+- Fixed an issue where a single lobby crash caused the server to crash.
+
 # Release 0.17.0 (01-03-2018)
 
 *Due to a bug in the patcher, Windows users may need to update manually.*
