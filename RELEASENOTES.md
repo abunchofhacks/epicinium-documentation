@@ -1,3 +1,38 @@
+# Release 0.18.0 (21-03-2018)
+
+### Accounts
+- The game now requires an Epicinium account with username, email and password. This allows you to log in with the same account on different computers. (**Issue #33**)
+- Usernames are now restricted to alphanumeric ASCII characters and the characters '_', '-', '.' and '~'. Support for usernames with non-ASCII characters (such as Cyrillic or Chinese) will be added in the future.
+- Some players had issues with files not being saved correctly and were forced to create multiple accounts with slightly different usernames. We will manually merge the ranks of these accounts into a new Epicinium account.
+
+### Gameplay
+- Decreased the hitpoints of City, Town and Farm tiles to 2, down from 3.
+- Decreased the cost of the City tile to 20, down from 30.
+- Decreased the cost of upgrading a Town tile to a City tile to 15, down from 30.
+- Industry and Barracks tiles can be upgraded to increase their size, for a cost of 30. At night, each Industry or Barracks tile gains power if the total power of surrounding City tiles is greater than its current power, but this does not automatically create a new building.
+- Frostbite only appears on Grass, Dirt, Desert and Rubble tiles.
+- Frostbite no longer lowers hitpoints, and instead deals 2 shots of 1 damage to ground units in the Decay phase.
+- Dirt tiles without humidity transform to Desert tiles if at least 40% of the map is covered by chaos, up from 20%.
+
+### Content
+- Reworked the *toad1v1*, *spruce1v1* and *oceanside1v1* maps to make expansion areas more interactive.
+- Updated the Medium and Hard TutorialTurtle to be more difficult to beat, and to allow them to use Sappers.
+- Added the RampantRhino AI, an aggressive variant of the TutorialTurtle.
+
+### Visuals & User Interface
+- Reworked the main menu and added login and registration functionality.
+- The "Waiting for response from server..." notice time is changed from 5 to 10 seconds after sending ping.
+- New notice "Connection to server resumed" added after receiving pong after the aforementioned 10 seconds.
+- Added "Authenticating..." notice to multiplayer menu while waiting for confirmation from server.
+
+### Technical
+- A warning now appears in the main menu if the game detects that it cannot properly save configuration files on the system.
+- Communication with the server now uses our new domain name, server.epicinium.nl, instead of using the IP address directly.
+- Login and registration uses login.epicinium.nl.
+- Login now works with sessions: a session token (with temporary validity) is issued while logging in, which is validated when joining the server.
+- Account files are now used to (optionally) remember sessions.
+
+
 ## Hotfix 0.17.1 (12-03-2018)
 
 *This is a server-only hotfix that is compatible with release 0.17.0.*
@@ -6,6 +41,7 @@
 - Fixed an issue where replays from version 0.17.0 could not be viewed due to missing data.
 - Fixed an issue where missing data while viewing a replay caused the lobby to crash.
 - Fixed an issue where a single lobby crash caused the server to crash.
+
 
 # Release 0.17.0 (01-03-2018)
 
