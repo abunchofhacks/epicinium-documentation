@@ -23,7 +23,7 @@ Using a tile to produce a unit or construct another tile reduces its power.
 ![City tiles gain power and generate income at night.](https://i.imgur.com/LoH1nYA.gif "City tiles gain power and generate income at night.")
 
 At night, buildings can gain power and generate income.
-Tiles require a suitable environment in order to gain power; City and Town tiles thrive when surrounded by Grass and Forest tiles, whereas Industry and Barracks tiles grow when you build City tiles nearby.
+Tiles require a suitable environment in order to gain power; City and Town tiles thrive when surrounded by Grass and Forest tiles, whereas Industry and Barracks tiles only gain power if you control City tiles nearby.
 
 ## Units
 
