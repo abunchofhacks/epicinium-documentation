@@ -1,3 +1,15 @@
+# Hotfix 0.18.1 (26-03-2018)
+
+*This is a server-only hotfix that is compatible with release 0.17.0.*
+
+### Gameplay
+- First player advantage is now properly randomized.
+
+### Content
+- Lowered the aggressiveness of the Easy RampantRhino, and increased the aggressiveness of the Hard RampantRhino.
+- Improved the RampantRhino AI to prevent its units from blocking each other.
+
+
 # Release 0.18.0 (21-03-2018)
 
 ### Accounts
