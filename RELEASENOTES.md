@@ -1,6 +1,32 @@
-# Hotfix 0.18.1 (26-03-2018)
+# Release 0.19.0 (05-04-2018)
 
-*This is a server-only hotfix that is compatible with release 0.17.0.*
+### Accounts
+- Users can no longer join the server multiple times at once with the same account.
+
+### Visuals & User Interface
+- Added a leaderboard tab to the multiplayer menu.
+- Renamed "Camera Scrolling" to "View Scrolling" in the settings menu.
+- The tutorial is less rigid and will allow you to continue as long as you have given a correct order, without having to also select that unit.
+- Increased the animation speed of the Farm tile's cultivate ability.
+- Improved error handling when joining server: the reason for failure (currently: session expired or already joined) is displayed in a login prompt.
+- Changed the wording of the rating change notification.
+- Added tooltip to start button when it is grayed out.
+- Added coin icon before cost in the order context menu.
+- Fixed the placement of text on different scale settings.
+- Added some margin to the tooltips in the multiplayer menu.
+
+### Bugs
+- Fixed a bug in the animation timing of units that are attacked from within the fog of war.
+- Fixed a bug where trees and buildings from the fog of war would remain on the screen for too long after the real tile was revealed.
+- Fixed an issue where the rating change notification would sometimes not appear after a lobby was disbanded.
+- Prevent crash when quickly starting new threads through repeated reconnection, login or registration.
+- Fixed a bug where the players were too spaced out in the lobby after joining a replay lobby.
+- Fixed a bug where sprites would show the wrong frame once every couple of draw steps in 32-bit Windows versions of the game.
+
+
+## Hotfix 0.18.1 (26-03-2018)
+
+*This is a server-only hotfix that is compatible with release 0.18.0.*
 
 ### Gameplay
 - First player advantage is now properly randomized.
