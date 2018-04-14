@@ -1,3 +1,22 @@
+# Release 0.20.0 (14-04-2018)
+
+### Gameplay
+- Disabled fog of war for human players. Fog of war can be reenabled per player by switching between "global vision" (no fog of war) and "normal vision" (fog of war).
+
+### Visuals & User Interface
+- Added an in-game panel that displays which player goes first each round.
+- Orders can be rearranged by clicking and dragging them. (**Issue #1**)
+- Added a blue button to orders in the order list. Clicking the button on a new order revokes the order. Clicking the button on an old order issues a Stop order to override the old order. (**Issue #2**)
+- The in-game camera starts out with your tiles and units in view.
+- Added a texture and decorative mountains to the edges of the map.
+- The "PLAY" button on the main menu now turns into an "UPDATE" button when a patch is available to be downloaded.
+- In case you forgot your password, you can now reset it from the main menu.
+
+### Bugs
+- Fixed a bug where the game does not fade in from black.
+- Fixed a bug where the caret did not appear when a text input was selected.
+
+
 # Release 0.19.0 (05-04-2018)
 
 ### Accounts
