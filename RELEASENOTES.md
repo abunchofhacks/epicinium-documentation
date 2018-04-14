@@ -10,11 +10,21 @@
 - The in-game camera starts out with your tiles and units in view.
 - Added a texture and decorative mountains to the edges of the map.
 - The "PLAY" button on the main menu now turns into an "UPDATE" button when a patch is available to be downloaded.
+- The "PLAY" button's tooltip is now more informative and appropriate to the specific situation.
 - In case you forgot your password, you can now reset it from the main menu.
+- The login form now displays a confirmation of a succesful registration or password reset.
+- If joining the server fails due to a locked account, the login form now displays the reason.
 
 ### Bugs
 - Fixed a bug where the game does not fade in from black.
 - Fixed a bug where the caret did not appear when a text input was selected.
+- Fixed a bug where the "PLAY" button would be enabled inappropriately.
+- Fixed a bug where the server would accept clients with old version to join.
+
+### Technical
+- Login sessions are now invalidated after a manual logout.
+- Login sessions that should not be remembered are now always invalidated after logout or game close.
+- You will now receive an email if you are resetting your password or when your account is locked from too many failed login attempts.
 
 
 # Release 0.19.0 (05-04-2018)
