@@ -1,3 +1,24 @@
+# Release 0.21.0 (26-04-2018)
+
+### Content
+- Added the maps **small3ffa**, **small4ffa** and **small8ffa**. Unlike the old free-for-all maps whose size scaled with the number of players, these maps are roughly the same size as the *small1v1* map. The chaos thresholds now scale with the size of the map instead of with the number of players, so expect a lot of global warming on these maps.
+- Removed the maps *oasis3ffa* and *beetle4ffa* from the map pool.
+
+### Visuals & User Interface
+- When an order is given to a unit or tile, the order appears below that unit or tile and floats to the order list.
+
+### Bugs
+- Fixed a bug where non-existing tile buildings could remain on the screen indefinitely after the tile had been revealed.
+- Fixed a bug where question marks appeared above units that still had old orders to execute.
+- Fixed a bug where no sound was played when an Industry or Barracks tile was upgraded.
+- Fixed a bug where giving an order after pressing the ready button caused that order to remain in the order list when the action phase started.
+- Fixed a bug where shadows from dragged players in the lobby could persist when the game was started.
+- Fixed a bug in the lobby menu where changing a player's color could move them to the observers.
+- Fixed a bug where a disconnected player could leave behind a ghost in the lobby.
+- Fixed bug where draggable items would remain dragged if clicked with a very low framerate.
+- Fixed a compatibility issue on Arch Linux.
+
+
 # Release 0.20.0 (14-04-2018)
 
 ### Gameplay
@@ -9,6 +30,7 @@
 - Added a blue button to orders in the order list. Clicking the button on a new order revokes the order. Clicking the button on an old order issues a Stop order to override the old order. (**Issue #2**)
 - The in-game camera starts out with your tiles and units in view.
 - Added a texture and decorative mountains to the edges of the map.
+- In the lobby, players can be dragged to the observers list and back.
 - The "PLAY" button on the main menu now turns into an "UPDATE" button when a patch is available to be downloaded.
 - The "PLAY" button's tooltip is now more informative and appropriate to the specific situation.
 - In case you forgot your password, you can now reset it from the main menu.

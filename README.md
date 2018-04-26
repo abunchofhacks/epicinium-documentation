@@ -18,7 +18,7 @@ Epicinium is being developed for Windows, Linux and Mac OS X.
 New to Epicinium? There are several resources available to get started. You can play the in-game tutorial, take a look at the [overview page](Tutorial.md) or watch the [introduction video](https://youtu.be/Ffmvt9w9xsA).
 We also have a [wiki](https://github.com/SLiV9/epicinium/wiki) with an in-depth exposition of all the mechanics and units in the game.
 
-Epicinium is currently in public beta. The binaries for beta version **0.20.0** can be downloaded [here](https://github.com/SLiV9/epicinium/releases/latest) or at our [itch.io page](https://unarmedlad.itch.io/epicinium-beta).
+Epicinium is currently in public beta. The binaries for beta version **0.21.0** can be downloaded [here](https://github.com/SLiV9/epicinium/releases/latest) or at our [itch.io page](https://unarmedlad.itch.io/epicinium-beta).
 
 ![When global warming reaches critical levels, Firestorm ravages tiles and units alike.](https://i.imgur.com/yqfj0kG.gif "When global warming reaches critical levels, Firestorm ravages tiles and units alike.")
 ![A Sapper unit destroys the last enemy City tile. All the Grass and Forest tiles are scored.](https://i.imgur.com/ATKFHkM.gif "A Sapper unit destroys the last enemy City tile. All the Grass and Forest tiles are scored.")
