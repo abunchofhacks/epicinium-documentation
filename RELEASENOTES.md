@@ -1,3 +1,11 @@
+## Release 0.21.1 (02-05-2018)
+
+*This is a Linux-only release that fixes compatibility with Ubuntu 18.04.*
+
+### Bugs
+- Fixed a compatibility issue that caused the game not to start on certain Linux distributions due to differences in libcurl.
+
+
 # Release 0.21.0 (26-04-2018)
 
 ### Content
