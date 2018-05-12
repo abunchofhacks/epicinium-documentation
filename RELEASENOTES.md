@@ -1,3 +1,43 @@
+# Release 0.22.0 (12-05-2018)
+
+### Gameplay
+- When a unit performs a bypass attack past an entrenched unit and an enemy unit retaliates, the entrenched unit is no longer involved in the resulting damage step.
+- All players receive an announcement whenever global warming crosses a threshold, i.e. whenever another 20% of the map is covered by chaos.
+- Reenabled fog of war by default, except in the tutorial.
+
+### Content
+- Improved the HungryHippo AI so it behaves symmetrically on all maps.
+- Improved the RampantRhino AI so it makes better use of its units and capitalizes on an income lead by building more City tiles.
+
+### Visuals & User Interface
+- Joining a match in progress is now instantaneous.
+- In the Winter growth phase, Snow also appears on tiles in the fog of war whose last known humidity is high enough.
+- The chaometer has been removed in favor of a newspaper; this newspaper appears whenever global warming crosses a threshold. The last issue of the newspaper can also be brought back by clicking the date in the bottom left.
+- The panels detailing unit and tile stats have been significantly simplified and now only show size, power and hitpoints.
+- The hygrometer and weather markers are now placed above these panels.
+- The wallet and the diamond button that reveals the player info panel have been unified.
+- Added option in the lobby to create a copy of an AI player.
+- In Fullscreen mode, the resolutions list in the settings menu will only contain resolutions the monitor supports (as far as we can detect).
+- In Fullscreen Desktop mode, no resolution can be specified because it will be the same as the user's desktop.
+
+### Bugs
+- Fixed a bug where a Trenches tile would provide its defense bonus during the retaliation attack that takes place when a unit performs a bypass attack past an entrenched unit.
+- Added a missing delay between the sound effects of unit figures dying as a result of Death.
+- The UPDATE button is now properly disabled while downloading a patch.
+- Fixed a bug where certain particles would only render at scale 2.
+- Fixed a bug where the mouse position was incorrectly matched to its position on the screen under certain resolutions, preventing buttons from being clicked.
+- Fixed a bug in Windows where in Windowed Borderless the window would be offset and the cursor position misaligned.
+- Fixed a server crash that could occur when a player left the server and a lobby was disbanded at the same time.
+- Fixed a bug where normal lobbies could be started on the tutorial map.
+
+### Technical
+- Improved native resolution detection.
+- Added support for multiple monitors. The game will not use the primary monitor by default. The monitor can be selected in the settings menu.
+- In windowed mode and borderless windowed mode, the position of the window can be changed using the settings menu.
+- Fullscreen and Fullscreen Desktop now behave as intended, without any undesired stretching or clipping.
+- Made sure the game window is never displayed at a resolution the monitor does not support in Fullscreen mode.
+
+
 ## Release 0.21.1 (02-05-2018)
 
 *This is a Linux-only release that fixes compatibility with Ubuntu 18.04.*
