@@ -1,3 +1,14 @@
+## Hotfix 0.22.1 (14-05-2018)
+
+*This is a server-only hotfix that is compatible with release 0.18.0.*
+
+### Bugs
+- Fixed an issue that caused the server to freeze for several minutes when a player disconnected unexpectedly.
+
+### Technical
+- Lowered the server-side connection timeout to 2 minutes, down from 10 minutes.
+
+
 # Release 0.22.0 (12-05-2018)
 
 ### Gameplay
