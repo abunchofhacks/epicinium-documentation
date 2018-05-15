@@ -1,3 +1,14 @@
+## Hotfix 0.22.2 (15-05-2018)
+
+*This is a server-only hotfix that is compatible with release 0.22.0.*
+
+### Bugs
+- Fixed a bug where vision was not calculated properly, which could result in invisible units or units leaving behind ghosts when disappearing in the fog of war.
+
+### Technical
+- When a user attempts to reconnect after a crash, the server might believe that they are still online. Instead of rejecting the attempt, it will now be put on hold for a few moments until the old connection has been dropped.
+
+
 ## Hotfix 0.22.1 (14-05-2018)
 
 *This is a server-only hotfix that is compatible with release 0.22.0.*
