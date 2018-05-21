@@ -1,3 +1,33 @@
+# Release 0.23.0 (21-05-2018)
+
+### Accounts
+- Slightly changed the way the score you obtain during a match affects your rating. Every match you play where you obtain a score higher than your current rating now causes your rating to increase by a percentage of the difference, but at least 0.1. Every match you play where you obtain a score lower than your current rating causes your rating to decrease by a percentage of the difference, but at least 0.1.
+- Lowered the rating increase percentage for free-for-all matches involving at least two human players to 1% per human player, down from 10%. Lowered the rating decrease percentage for these matches to 1%, down from 10%.
+- Lowered the rating increase and decrease percentages for matches versus AI players to 1%, down from 10%.
+- While your rating is below 10, the rating increase percentage is at least a minimum percentage; this minimum scales from 10% at a rating of 0 through 5% at a rating of 5 down to 1% at a rating of 10.
+
+### Gameplay
+- Added the **Militia** unit. Its maximum size is 5 and it has a movement speed of 3. Each figure of a Militia unit deals 1 damage and has only 1 hitpoint. It can be produced by City and Farm tiles for a cost of 5.
+- The Rifleman unit is no longer produced by City or Farm tiles, but instead by Barracks tiles for a cost of 5.
+- The Tank unit can no longer attack and must rely on its Shell ability to deal damage.
+- While a tile is occupied by an enemy unit, the tile cannot execute any orders except Stop orders and does not gain power or generate income at night.
+- At the end of the decay phase, if all City tiles controlled by a player are occupied by enemy units, that player loses control of those City tiles and is defeated.
+- When a player is defeated, their tiles and units lose all old orders.
+- Tiles can now be given an order to produce a unit at an adjacent space. When the unit is produced, it will move to that space if possible. If a friendly unit is occupying the producing tile, the produced unit will bypass that unit to get to its destination. The produced unit will not attack if its destination space is occupied by an enemy unit, but it can be subject to an attack of opportunity if it is not bypassing a friendly unit.
+
+### Content
+- All maps have been adjusted by replacing the starting Rifleman units with  Militia units.
+- Added the maps *oasis3ffa* and *beetle4ffa* back to the map pool.
+- Added the map **cornered8ffa** to the map pool.
+- Improved the RampantRhino and TutorialTurtle AIs to be better at defending their City tiles and avoiding weather effects such as Frostbite.
+- Improved the HungryHippo AI to use Militia, Rifleman and Tank units.
+- Updated the QuickQuack AI to use Militia units instead of Rifleman units.
+
+### Bugs
+- Fixed a bug where Airfield tiles would not gain power when adjacent to an Industry tile that just gained power that night.
+- Fixed a bug where the camera could no longer be moved with WASD or the arrow keys if the newspaper announcement appeared while the chat window was open.
+
+
 ## Hotfix 0.22.2 (15-05-2018)
 
 *This is a server-only hotfix that is compatible with release 0.22.0.*
