@@ -49,5 +49,5 @@ We'd love to hear from you at [epiciniumgame@gmail.com](mailto:epiciniumgame@gma
 * [Facebook](https://www.facebook.com/EpiciniumStrategy)
 * [Twitter](https://twitter.com/EpiciniumGame)
 * [Mailing list](http://groups.google.com/group/epicinium) (stay informed about the latest Epicinium events and updates)
-* [Discord](http://discord.gg/XktTKrH) (find opponents and have a chat with the developers)
+* [Discord](https://discord.gg/vQhTURC) (find opponents and have a chat with the developers)
 * [Twitch](https://www.twitch.tv/sliv9) (Sander streams the weekly playtests and occasionally development; watch past streams)
