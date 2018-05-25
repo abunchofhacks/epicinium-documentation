@@ -1,3 +1,20 @@
+# Release 0.23.1 (25-05-2018)
+
+### Content
+- Updated the tutorial to match the gameplay changes introduced in 0.23.0.
+
+### Visuals & User Interface
+- Made a higher definition version of the title screen logo.
+- The camera now rests longer before showing a tile being captured to make it more clear what is happening.
+- Slightly tweaked the registration procedure to comply with GDPR.
+
+### Bugs
+- Fixed a bug where the camera could jerk to the side for no reason at lower framerates.
+- Fixed a bug where a player leaving a game in progress and rejoining as an observer would cause that player to always receive gameplay updates about that game even if they were not in that lobby anymore and even if they were playing a different game.
+- Fixed a bug where the server would finish a game at full speed when one player disconnected and one player resigned.
+- Fixed a bug where a locked lobby could appear unlocked.
+
+
 # Release 0.23.0 (21-05-2018)
 
 ### Accounts
