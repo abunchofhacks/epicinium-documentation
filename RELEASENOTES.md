@@ -1,3 +1,29 @@
+# Release 0.24.0 (01-06-2018)
+
+### Accounts
+- Players no longer lose rating points if they resign before the third action phase has started.
+
+### Gameplay
+- The City tile can now produce the Rifleman unit for a cost of 10.
+- The City tile can no longer produce Militia units.
+- Lowered the movement speed of the Rifleman unit to 2, down from 3.
+
+### Content
+- Changed the RampantRhino and TutorialTurtle AIs to produce units earlier in the game.
+- Updated the QuickQuack and HungryHippo AIs for the new gameplay changes.
+
+### Visuals & User Interface
+- Improved the layout of the in-game UI on very small screens.
+
+### Bugs
+- Fixed a bug where players rejoining a match after a disconnect could see the enemy base through the fog of war.
+- Fixed a bug where Tank units dealing trample damage to Soil or Crops tiles could leave behind ghost tanks.
+- Fixed a bug that caused units to disappear and reappear on the same tile.
+
+### Technical
+- Improved the stability of the server when the connection with a client deteriorates.
+
+
 # Release 0.23.1 (25-05-2018)
 
 ### Content
