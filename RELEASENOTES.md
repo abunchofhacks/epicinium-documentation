@@ -1,3 +1,37 @@
+# Release 0.25.0 (06-07-2018)
+
+### Accounts
+- Players can now earn stars by playing weekly challenge maps. Each challenge can award up to three stars based on requirements given in a mission briefing. Players can retry challenges in order to get more stars; only the best attempt counts.
+
+### Content
+- Added the first challenge to the multiplayer menu. In this challenge, you start with three Rifleman units and no City tiles; having your City tiles occupied does not cause you to lose. To earn 1 star, win with at least 1 point. For 2 stars, get at least 25 points. For 3 stars, get at least 40 points.
+- The RampantRhino and TutorialTurtle AIs now move their units out of the way if they are blocking another unit.
+
+### Visuals & User Interface
+- The figures of a newly produced unit now spawn inside the buildings of the tile that produced them.
+- Added grass particles when a Grass tile is destroyed.
+- Added dust particles when a tile is built or upgraded.
+- Added particles when a Zeppelins drops mustard gas.
+- A Shell or Bombard explosion can no longer appear right next to the figure of a unit if it did not hit that unit.
+- Added a "Feedback?" button to the bottom of the main menu that can be used to post feedback to [our STOMT page](https://www.stomt.com/epicinium) or to submit a bug report alongside your Epicinium logs.
+- Also added a "Feedback?" tab to the top right corner of the multiplayer menu.
+- The notice underneath the registration form now links to our new [privacy statement](https://epicinium.nl/privacy.php).
+- When less than 4 players are online, a link to our Discord is added to the player list to help players find opponents.
+
+### Bugs
+- Fixed a bug in the mailing list preferences popup where the functionality of "yes, email me about the campaign" was swapped with that of "yes, and also keep me up to date on Epicinium".
+- Fixed a bug that could result in frames being dropped unnecessarily.
+- Fixed a bug where tile textures would change too soon while animating a tile being transformed or destroyed.
+- Fixed a bug where the RampantRhino and TutorialTurtle AIs could not produce Settler units while defending their City tiles.
+
+### Technical
+- Reduced video memory usage by approximately 15%.
+
+### Other
+- Added the privacy statement to the archive as a markdown file.
+- Added a text file with install instructions for those who have trouble getting the game to run.
+
+
 # Release 0.24.0 (01-06-2018)
 
 ### Accounts
