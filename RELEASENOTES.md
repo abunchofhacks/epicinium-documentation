@@ -1,3 +1,24 @@
+# Release 0.26.0 (20-07-2018)
+
+### Accounts
+- Challenge maps no longer affect rating.
+
+### Content
+- Challenge lobbies are no longer private.
+- Added the Elimination Challenge. To earn 1 star, eliminate all enemy units. For 2 stars, also get at least 25 points. For 3 stars, also avoid destroying any City, Farm or Industry tiles.
+
+### Visuals & User Interface
+- Added an image background to the Tutorial and Challenge buttons.
+- The name and image background of the Challenge button will reflect the currently active challenge.
+
+### Bugs
+- Fixed a mix-up where feedback text would be unnecessarily truncated before being sent to the devs, while the untruncated text would be sent to STOMT and rejected for being too long.
+
+### Technical
+- Added functionality for the client to download images and other small files from the server without needing to download an entire patch.
+- Improved text rendering.
+
+
 # Release 0.25.0 (06-07-2018)
 
 ### Accounts
