@@ -1,3 +1,25 @@
+# Release 0.27.0 (06-08-2018)
+
+### Content
+- Added the Everything is Free Challenge. In this challenge, you play a normal match except that all unit and tile costs have been reduced to 0. To earn 1 star, get at least 1 point. To earn 2 stars, get at least 30 points. To earn 3 stars, get at least 80 points.
+
+### Visuals & User Interface
+- Changed the size and layout of the phase list to put more emphasis on the Planning and Action phases.
+- Made the unit info boxes and the initiative box partially transparent.
+- The UI can now handle different rulesets (such as those from the challenges) and adapt as needed.
+
+### Technical
+- The server now sends lobby info before player info, so that the lobby ids are known before you hear which lobbies are joined.
+
+
+## Hotfix 0.26.1 (24-07-2018)
+
+*This hotfix only applies to debian64 and is compatible with version 0.26.0.*
+
+### Bugs
+- Fixed a bug where the debian64 version of the game would connect with an internal server instead of with the live server.
+
+
 # Release 0.26.0 (20-07-2018)
 
 ### Accounts
