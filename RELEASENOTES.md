@@ -1,3 +1,50 @@
+# Release 0.28.0 (25-08-2018)
+
+### Social
+- Added Discord Rich Presence integration.
+
+### Content
+- Added the Tank Derby Challenge. In this challenge, you and three AI opponents fight with Tank units on a tiny map covered with Crops tiles. To earn 1 star, defeat all three opponents. To earn 2 stars, get at least 4 points. To earn 3 stars, get at least 10 points.
+- The RampantRhino, TutorialTurtle and BrawlingBear AIs now avoid settling Town, Farm or City tiles directly adjacent to their own City tiles.
+
+### Visuals & User Interface
+- Added a Discord status icon to the top right of the main menu.
+- Lobbies in the lobby list now show the current and maximum number of players.
+- Added "One vs One" and "Free For All" buttons that automatically join a lobby of the chosen type if available, and create such a lobby otherwise.
+- Added a "Versus A.I." button that creates a lobby and immediately adds an A.I. opponent.
+- Added a faded map preview to the back of the observer list.
+- Reworked the order list elements with new icons for all units, tiles and abilities.
+- Replaced the unit and tile names within the order context menu with matching icons.
+- Replaced the blue text within the order guides with matching icons.
+- Made the valid target guide and invalid target cursor more prominent.
+- Added numbers to the back of the order list elements that match the sequence in which the orders will be executed during the Action phase.
+- Double-clicking an order in the order list causes the view to pan to that unit or tile.
+- Manual view scrolling is now disabled during the action phase and while panning. This can be reenabled by turning on Advanced Controls in the settings menu.
+- The UI now prohibits giving orders to tiles without power and giving redundant Stop, Cultivate and Upgrade orders. This can be reenabled by turning on Advanced Controls in the settings menu.
+- Made text in disabled interface elements slightly transparent.
+- Changed the style of various UI elements to be more consistent.
+- While spectating, if a player loses a challenge the popup now says "The player was defeated" instead of "A player was victorious".
+- Pressing Escape while the order context menu is open, closes it instead of showing the Quit popup. The same holds for the targeting cursor.
+
+### Bugfixes
+- Pressing Escape while the in-game chat window is open, closes it but no longer also shows the Quit popup. The same holds for the player list, the newspaper and the mission briefing.
+- Fixed a bug where the initiative list was incomplete or incorrect when an observer joined a game in progress.
+- Fixed a server crash that could occur when a game client sent a broken sequence of messages.
+- Fixed a server crash that could occur due to multithreading issues.
+
+
+## Patch 0.27.1 (25-08-2018)
+
+*This is a transitional version that only exists to facilitate patching.*
+
+### Bugfixes
+- Added msvcr120.dll in the Windows releases, fixing an issue where users without the Visual C++ Redistributable could not launch the game.
+
+### Technical
+- The game can now patch itself without relying on a separate patcher.
+- The game can now patch the launcher.
+
+
 # Release 0.27.0 (06-08-2018)
 
 ### Content
@@ -16,7 +63,7 @@
 
 *This hotfix only applies to debian64 and is compatible with version 0.26.0.*
 
-### Bugs
+### Bugfixes
 - Fixed a bug where the debian64 version of the game would connect with an internal server instead of with the live server.
 
 
@@ -33,7 +80,7 @@
 - Added an image background to the Tutorial and Challenge buttons.
 - The name and image background of the Challenge button will reflect the currently active challenge.
 
-### Bugs
+### Bugfixes
 - Fixed a mix-up where feedback text would be unnecessarily truncated before being sent to the devs, while the untruncated text would be sent to STOMT and rejected for being too long.
 
 ### Technical
@@ -61,7 +108,7 @@
 - The notice underneath the registration form now links to our new [privacy statement](https://epicinium.nl/privacy.php).
 - When less than 4 players are online, a link to our Discord is added to the player list to help players find opponents.
 
-### Bugs
+### Bugfixes
 - Fixed a bug in the mailing list preferences popup where the functionality of "yes, email me about the campaign" was swapped with that of "yes, and also keep me up to date on Epicinium".
 - Fixed a bug that could result in frames being dropped unnecessarily.
 - Fixed a bug where tile textures would change too soon while animating a tile being transformed or destroyed.
@@ -92,7 +139,7 @@
 ### Visuals & User Interface
 - Improved the layout of the in-game UI on very small screens.
 
-### Bugs
+### Bugfixes
 - Fixed a bug where players rejoining a match after a disconnect could see the enemy base through the fog of war.
 - Fixed a bug where Tank units dealing trample damage to Soil or Crops tiles could leave behind ghost tanks.
 - Fixed a bug that caused units to disappear and reappear on the same tile.
@@ -111,7 +158,7 @@
 - The camera now rests longer before showing a tile being captured to make it more clear what is happening.
 - Slightly tweaked the registration procedure to comply with GDPR.
 
-### Bugs
+### Bugfixes
 - Fixed a bug where the camera could jerk to the side for no reason at lower framerates.
 - Fixed a bug where a player leaving a game in progress and rejoining as an observer would cause that player to always receive gameplay updates about that game even if they were not in that lobby anymore and even if they were playing a different game.
 - Fixed a bug where the server would finish a game at full speed when one player disconnected and one player resigned.
@@ -143,7 +190,7 @@
 - Improved the HungryHippo AI to use Militia, Rifleman and Tank units.
 - Updated the QuickQuack AI to use Militia units instead of Rifleman units.
 
-### Bugs
+### Bugfixes
 - Fixed a bug where Airfield tiles would not gain power when adjacent to an Industry tile that just gained power that night.
 - Fixed a bug where the camera could no longer be moved with WASD or the arrow keys if the newspaper announcement appeared while the chat window was open.
 
@@ -152,7 +199,7 @@
 
 *This is a server-only hotfix that is compatible with release 0.22.0.*
 
-### Bugs
+### Bugfixes
 - Fixed a bug where vision was not calculated properly, which could result in invisible units or units leaving behind ghosts when disappearing in the fog of war.
 
 ### Technical
@@ -163,7 +210,7 @@
 
 *This is a server-only hotfix that is compatible with release 0.22.0.*
 
-### Bugs
+### Bugfixes
 - Fixed an issue that caused the server to freeze for several minutes when a player disconnected unexpectedly.
 
 ### Technical
@@ -192,7 +239,7 @@
 - In Fullscreen mode, the resolutions list in the settings menu will only contain resolutions the monitor supports (as far as we can detect).
 - In Fullscreen Desktop mode, no resolution can be specified because it will be the same as the user's desktop.
 
-### Bugs
+### Bugfixes
 - Fixed a bug where a Trenches tile would provide its defense bonus during the retaliation attack that takes place when a unit performs a bypass attack past an entrenched unit.
 - Added a missing delay between the sound effects of unit figures dying as a result of Death.
 - The UPDATE button is now properly disabled while downloading a patch.
@@ -214,7 +261,7 @@
 
 *This is a Linux-only release that fixes compatibility with Ubuntu 18.04.*
 
-### Bugs
+### Bugfixes
 - Fixed a compatibility issue that caused the game not to start on certain Linux distributions due to differences in libcurl.
 
 
@@ -227,7 +274,7 @@
 ### Visuals & User Interface
 - When an order is given to a unit or tile, the order appears below that unit or tile and floats to the order list.
 
-### Bugs
+### Bugfixes
 - Fixed a bug where non-existing tile buildings could remain on the screen indefinitely after the tile had been revealed.
 - Fixed a bug where question marks appeared above units that still had old orders to execute.
 - Fixed a bug where no sound was played when an Industry or Barracks tile was upgraded.
@@ -257,7 +304,7 @@
 - The login form now displays a confirmation of a succesful registration or password reset.
 - If joining the server fails due to a locked account, the login form now displays the reason.
 
-### Bugs
+### Bugfixes
 - Fixed a bug where the game does not fade in from black.
 - Fixed a bug where the caret did not appear when a text input was selected.
 - Fixed a bug where the "PLAY" button would be enabled inappropriately.
@@ -286,7 +333,7 @@
 - Fixed the placement of text on different scale settings.
 - Added some margin to the tooltips in the multiplayer menu.
 
-### Bugs
+### Bugfixes
 - Fixed a bug in the animation timing of units that are attacked from within the fog of war.
 - Fixed a bug where trees and buildings from the fog of war would remain on the screen for too long after the real tile was revealed.
 - Fixed an issue where the rating change notification would sometimes not appear after a lobby was disbanded.
@@ -346,7 +393,7 @@
 
 *This is a server-only hotfix that is compatible with release 0.17.0.*
 
-### Bugs
+### Bugfixes
 - Fixed an issue where replays from version 0.17.0 could not be viewed due to missing data.
 - Fixed an issue where missing data while viewing a replay caused the lobby to crash.
 - Fixed an issue where a single lobby crash caused the server to crash.
@@ -381,8 +428,8 @@
 - Increased overall loudness of the game.
 - Decreased relative loudness of explosions and collapses.
 
-### Bugs
-- Fixed some bugs where the main menu would give incorrect or misleading information regarding the connection status.
+### Bugfixes
+- Fixed some bugfixes where the main menu would give incorrect or misleading information regarding the connection status.
 - Fixed a bug where the settings would not be saved if settings.json was missing.
 
 ### Technical
@@ -427,7 +474,7 @@
 ### Audio
 - Added a delay between building destruction sounds to reduce the loudness of Upgrade and Death animations.
 
-### Bugs
+### Bugfixes
 - Fixed GPU memory leak that could cause the game to crash. (**Issue #32**)
 - Fixed bug where the chaometer indicated values slightly lower then intended.
 - Fixed bug where the chaometer could grow beyond its container.
@@ -443,7 +490,7 @@
 
 *This is a server-only hotfix that is compatible with release 0.15.0.*
 
-### Bugs
+### Bugfixes
 - ~~Fixed bug where Dirt turns to Desert before 20% of the map is covered by chaos.~~
 
 ### Technical
@@ -490,7 +537,7 @@
 - The camera no longer pans to show enemy cities gaining power.
 - The chat window expands to cover most of the screen, and only shows a small preview when collapsed.
 
-### Bugs
+### Bugfixes
 - Fixed a bug where buildings and trees could be improperly placed.
 
 
@@ -518,7 +565,7 @@
 - Unit figures are positioned more towards the center of the tile.
 - Guides that appear when a Capture, Shape, Settle, Upgrade or Produce order is given are now blue instead of orange.
 
-### Bugs
+### Bugfixes
 - Fixed an issue where joining a replay in progress would skip through the entire recording at once.
 - Made the audio code thread-safe, preventing some rare crashes.
 - Fixed issue where after playing the tutorial, the tutorial map would be listed in the map picker.
@@ -534,7 +581,7 @@
 
 *Due to a bug in the patcher, updating from v0.11.0 or earlier to v0.12.0 would result in a broken version of the game. This hotfix should allow players to first patch to v0.12.1 and then to v0.13.0.*
 
-### Bugs
+### Bugfixes
 - Fixed an issue where the patcher could not install the audio folder.
 
 ### Technical
@@ -570,7 +617,7 @@
 - Added sound effects during gameplay. (**Issue #12**)
 - Added cue for beginning of planning phase. (**Issue #16**)
 
-### Bugs
+### Bugfixes
 - Fixed a bug where replays from version 0.10.0 and older did not work.
 - Fixed a rare bug where valid orders were discarded for no reason.
 - Fixed an issue in free-for-all games where the server would wait for defeated players to ready up.
@@ -590,7 +637,7 @@
 - Reworked surface textures and added blending between surfaces.
 - Increased the speed at which the diamond icons appeared.
 
-### Bugs
+### Bugfixes
 - Fixed a bug where unit figures would keep moving instead of dying when taking lethal damage.
 - Fixed a bug where players were able to generate broken orders by clicking on unpathable tiles, which were then discarded by the server. (**Issue #30**)
 - Fixed a bug where a starting a game while a chat message was being typed would cause that message to be sent once that player started typing again. The message is now discarded. (**Issue #29**)
@@ -605,7 +652,7 @@
 
 *This is a server-only hotfix that is compatible with release 0.10.0.*
 
-### Bugs
+### Bugfixes
 - Fixed issue where the tutorial opponent would be QuickQuack instead of DemoDuck.
 
 
@@ -622,7 +669,7 @@
 ### Visuals & User Interface
 - After a match has ended, a diamond icon pops up over each tile that is worth points.
 
-### Bugs
+### Bugfixes
 - Fixed a bug where the camera would not always pan when Crops tiles generated income at night.
 - Fixed bug where player ratings in the multiplayer menu would not always update.
 
@@ -645,7 +692,7 @@
 - Increased the visual difference between 1 stack of Gas and 2 stacks of Gas.
 - Tweaked the colors of the Gunner's machine gun.
 
-### Bugs
+### Bugfixes
 - Fixed a bug where the camera would not scroll down when the cursor was at the bottom of the screen on certain resolutions. (**Issue #24**)
 - Fixed a bug where the cursor displayed a waiting animation at the end of a game.
 - Fixed a bug where Industry tiles could lower the humidity of surrounding tiles below 35 percent.
@@ -686,7 +733,7 @@
 - Tweaked the colors of Dirt, Desert and Mountain tiles.
 - When displaying simultaneous effects such as the hearts and coins at night, if not all effects fit on the screen at once, the camera will pan multiple times.
 
-### Bugs
+### Bugfixes
 - Fixed bug where a player could appear to remain online indefinitely after their game crashed. (**Issue #25**)
 - Fixed bug where the planning phase would last its entire duration even though both players were ready. (**Issue #27**)
 - Properly fixed a bug where a figure could disappear before its death animation had finished.
@@ -720,7 +767,7 @@
 - Added tooltips to the phase icons and the order icons. (**Issue #22**)
 - Tweaked how colors look at night.
 
-### Bugs
+### Bugfixes
 - ~~Fixed a bug where a figure could disappear before its death animation had finished.~~
 - Fixed a bug where night phase mood indicators (e.g. pink hearts) were not displayed in observer mode and replay mode.
 - Fixed a bug where disconnected observers could not rejoin the lobby if it was private.
@@ -743,7 +790,7 @@
 ### Content
 - Modified the tutorial map and AI to be less overwhelming.
 
-### Bugs
+### Bugfixes
 - Fixed issue where replays were available before the match had finished.
 - Fixed possible issue that could cause the game to crash when receiving multiple messages from the server simultaneously.
 
@@ -752,7 +799,7 @@
 
 *This is a server-only hotfix that is compatible with release 0.7.0.*
 
-### Bugs
+### Bugfixes
 - Fixed a bug where the player could spawn on the wrong side of the map when playing the tutorial online, which made it more difficult than intended.
 - Fixed a bug where colors assigned to an AI player would be permanently unavailable after the AI player was removed from the lobby.
 
@@ -775,7 +822,7 @@
 - Added dropdown boxes for selecting map, planning time and player colors.
 - Tweaked the style and colors of various interface elements.
 
-### Bugs
+### Bugfixes
 - The game now no longer continues after a player has been declared victorious.
 - Fixed visual issues when rejoining a match in progress.
 - Fixed issue where tiles destroyed during combat would rebuild themselves at night.
@@ -815,7 +862,7 @@
 - Added a blinking caret to text input fields whose position is controlled by the left/right arrow keys.
 - Added automatic horizontal scrolling to text input fields when the text gets longer than its container.
 
-### Bugs
+### Bugfixes
 - Properly fixed issue where the camera would not pan when a zeppelin dropped gas.
 - Fixed issue where the Quit popup was unresponsive if the chat window was open.
 
@@ -833,7 +880,7 @@
 - Screen edge camera scrolling is now on by default.
 - Camera scrolling options can be overridden in the settings.
 
-### Bugs
+### Bugfixes
 - Fixed issue preventing 32-bit and OS X from connecting to the server. (**Issue #18**)
 - Fixed errors preventing startup on OS X. (**Issue #17**)
 - ~~Fixed issue where the camera would not pan when a zeppelin dropped gas.~~
@@ -855,7 +902,7 @@
 - Changed the ready button checkbox.
 - Changed font to Munro, which has a more permissive license.
 
-### Bugs
+### Bugfixes
 - Changed all references from Aftermath (working title) to Epicinium.
 
 ### Other
