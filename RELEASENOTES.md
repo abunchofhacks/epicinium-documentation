@@ -1,3 +1,29 @@
+# Release 0.28.2 (31-08-2018)
+
+### Visuals & User Interface
+- Animations can now be sped up by holding down the left mouse button, and paused temporarily by holding down the right mouse button.
+- Made the impact animation of attacks more noticeable and easy to read.
+- Updated the tutorial wording to correspond to the new UI.
+
+### Bugfixes
+- Fixed a bug where Discord Rich Presence was updated too frequently, causing it to fail to display at all.
+- Fixed a bug where rejoining a game in progress after disconnecting would break the timer and disable view panning.
+- Fixed a bug where lobbies whose game had ended were not locked even though they cannot be joined.
+- Fixed a bug where the "One vs One", "Free For All" and "Versus A.I." buttons remained clickable when the server is shutting down.
+- Fixed a bug in the settings menu where the Advanced Controls settings would not save and load correctly.
+
+### Technical
+- Updated libssl and libcrypto to 1.1.0i in Windows and 1.0.2p in OS X for security. Linux still uses the system libraries.
+
+
+## Patch 0.28.1 (28-08-2018)
+
+*This is a server-only patch that is compatible with release 0.28.0.*
+
+### Social
+- The server now communicates with a Discord bot instead of posting information about who is online directly to a Discord channel.
+
+
 # Release 0.28.0 (25-08-2018)
 
 ### Social
