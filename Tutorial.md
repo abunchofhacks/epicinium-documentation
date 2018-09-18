@@ -1,3 +1,7 @@
+**This page has been replaced with an in-game tutorial and is no longer up to date. Please refer to the [wiki](https://github.com/SLiV9/epicinium/wiki) for a detailed overview of Epicinium.**
+
+---
+
 Epicinium is a multiplayer strategy game with simultaneous turns.
 Each turn consists of a planning phase, where all players decide which orders they want to give their units that turn,
 followed by an action phase, where players watch as the the orders play out.
