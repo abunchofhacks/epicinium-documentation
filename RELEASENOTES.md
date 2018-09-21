@@ -1,3 +1,37 @@
+### Release 0.29.0 (21-09-2018)
+
+### Accounts
+- This version marks the start of the Closed Beta. A key is required to gain access to this Closed Beta.
+
+### Social
+- If integration with Discord is enabled, the game can now automatically link your Epicinium username to your Discord account.
+
+### Content
+- Added the High Speed Challenge. In this challenge, you play a normal match on *oasis1v1* except all units have their movement speed increased by 2. To earn 1 star, get at least 1 point. To earn 2 stars, get at least 30 points. To earn 3 stars, get at least 80 points.
+
+### Visuals & User Interface
+- Figures now walk around buildings and trees instead of through them.
+- Added a key activation page.
+- Added text selection to text input fields.
+- Added copy and paste functionality to text input fields.
+
+### Bugfixes
+- Fixed an issue with text rendering.
+- Fixed an issue where player doing tutorial or challenge would be listed as in lobby instead of in game.
+- Fixed an issue where the sound effect of a collapsing building started before the animation did.
+
+### Technical
+- Improved performance of the main menu.
+
+
+## Hotfix 0.28.3 (03-09-2018)
+
+*This is a server-only hotfix that is compatible with release 0.28.2.*
+
+### Bugfixes
+- Fixed a bug where Discord Rich Presence users could not post an Invite to Spectate link, despite the lobby being public.
+
+
 # Release 0.28.2 (31-08-2018)
 
 ### Visuals & User Interface
