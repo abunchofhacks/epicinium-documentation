@@ -24,13 +24,12 @@ If you just want to be kept up-to-date with the latest developments around Epici
 
 # Resources
 
-New to Epicinium? There are several resources available to get started. You can play the in-game tutorial, watch the [introduction video](https://youtu.be/Ffmvt9w9xsA) or ask other community members on Discord.
+New to Epicinium? There are several resources available to get started. You can play the in-game tutorial, watch the [introduction video](https://www.youtube.com/watch?v=E2wUIfteu-w) or ask other community members on Discord.
 We also have a [wiki](https://github.com/SLiV9/epicinium/wiki) with an in-depth exposition of all the mechanics and units in the game.
 
 
 # Contact
 
-Epicinium is being developed [A Bunch of Hacks](https://www.abunchofhacks.coop), a gamedev cooperative consisting of [Sander in 't Veld](https://twitter.com/sanderintveld) and Daan Mulder.
-
+Epicinium is being developed by [A Bunch of Hacks](https://www.abunchofhacks.coop), a gamedev cooperative consisting of [Sander in 't Veld](https://twitter.com/sanderintveld) and Daan Mulder.
 Have questions?
 We'd love to hear from you on [Twitter](https://twitter.com/EpiciniumGame) or at [info@epicinium.com](mailto:info@epicinium.com). Or join our community on [Discord](https://discord.gg/vQhTURC)!
