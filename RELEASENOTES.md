@@ -1,4 +1,13 @@
-### Release 0.29.0 (21-09-2018)
+## Hotfix 0.29.1 (21-09-2018)
+
+*This is a server-only hotfix that is compatible with release 0.29.0.*
+
+### Bugfixes
+- Fixed an issue preventing itch.io and gamejolt users from logging in.
+- Fixed an issue causing users to appear multiple times in the user list.
+
+
+# Release 0.29.0 (21-09-2018)
 
 ### Accounts
 - This version marks the start of the Closed Beta. A key is required to gain access to this Closed Beta.
