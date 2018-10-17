@@ -1,3 +1,9 @@
+## Hotfix 0.30.1 (17-10-2018)
+
+### Bugfixes
+- Fixed severe screen flickering issues on Windows.
+
+
 # Release 0.30.0 (17-10-2018)
 
 ### Gameplay
