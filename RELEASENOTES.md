@@ -1,3 +1,43 @@
+# Release 0.30.0 (17-10-2018)
+
+### Gameplay
+- Firestorm occurs at random on 4% of the map for every 40% of the map that is covered by chaos, instead of 24% for every 40%.
+- Firestorm now prefers Grass, Forest, Soil, Crops and Trenches tiles and avoids other tiles if possible.
+- Building a tile now removes any Firestorm present if the newly built tile is not flammable.
+- Building a tile or digging Trenches now removes any Frostbite present if Frostbite would not naturally occur on the newly built tile.
+- Frostbite no longer occurs on Water tiles.
+
+### Visuals & User Interface
+- Added additional visual indicators for damaging weather effects such as Frostbite and Firestorm.
+- Added a flicker effect when tile buildings gain or lose power.
+- When a tile is occupied, the lights in its buildings are dimmed.
+- Made snow more transparent, in particular on Grass and Mountain tiles.
+- Added additional tree types. Different maps can feature different types of trees.
+- Added highlights to valid targets while giving a targeted order in the Planning phase.
+- Added highlights to active tiles and units in the Action and Night phases.
+- Added lighting effects for gunfire and explosions.
+- Add animations to the in-game wallet.
+- The wallet blinks red if a unit or tile cannot execute its orders due to insufficient funds.
+- Improved the in-game tooltips for Snow and Firestorm.
+- Animated the logo on the main menu.
+- Added the possibility to show a stamp on the logo with tooltip and link (to be used during our crowdfunding campaign).
+
+### Bugfixes
+- Fixed a pathing bug when unit figures spawn.
+- Fixed a bug where mountains would not be fully contained within their borders.
+- Fixed a bug where incorrect amounts of money were displayed when joining a replay in progress.
+- Fixed interface layout issues on smaller resolutions.
+- Fixed a text rendering bug.
+- Fixed a bug where the RampantRhino AI would give multiple orders to the same unit or tile within a single planning phase.
+- Fixed a bug where Discord Rich Presence would contain a "Ask to Join" button instead of a "Spectate" button while spectating.
+- Fixed a bug where the mouse cursor would be stuck at ibeam if a text input would disappear while hovered.
+
+### Technical
+- Reduced the filesize of various animated sprites.
+- Improved timing of screen flip.
+- Added *settings.json* to the log files that can be attached to a bug report.
+
+
 ## Hotfix 0.29.1 (21-09-2018)
 
 *This is a server-only hotfix that is compatible with release 0.29.0.*
@@ -435,7 +475,7 @@
 - Decreased the cost of the City tile to 20, down from 30.
 - Decreased the cost of upgrading a Town tile to a City tile to 15, down from 30.
 - Industry and Barracks tiles can be upgraded to increase their size, for a cost of 30. At night, each Industry or Barracks tile gains power if the total power of surrounding City tiles is greater than its current power, but this does not automatically create a new building.
-- Frostbite only appears on Grass, Dirt, Desert and Rubble tiles.
+- Frostbite only appears on Grass, Dirt, Desert, Rubble, Soil, Crops and Water tiles.
 - Frostbite no longer lowers hitpoints, and instead deals 2 shots of 1 damage to ground units in the Decay phase.
 - Dirt tiles without humidity transform to Desert tiles if at least 40% of the map is covered by chaos, up from 20%.
 
