@@ -18,7 +18,7 @@ Epicinium is being developed for Windows, Linux and Mac OS X.
 
 # Closed Beta
 
-Epicinium is currently in closed beta. For information about gaining access to the Epicinium Closed Beta, join [our Discord server](https://discord.gg/vQhTURC).
+Epicinium is currently in closed beta. The beta version offers a work-in-progress look at the multiplayer portion of the game. Join our [Discord community](https://discord.gg/vQhTURC) to follow its progress, find other players and have a chat with the developers. 
 If you just want to be kept up-to-date with the latest developments around Epicinium, you can subscribe to our mailing list over on [the Epicinium website](https://www.epicinium.nl).
 
 
