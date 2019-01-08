@@ -1,3 +1,28 @@
+# Release 0.31.0 (28-11-2018)
+
+### Accounts
+- For the remainder of the Kickstarter campaign, i.e. until December 1st 22:59 UTC, the beta is open for everyone.
+- During this time, new users can log in as a guest using their Discord username if the Discord desktop application is running. Ratings and stars are not recorded when playing as a guest.
+
+### Gameplay
+- Giving an Upgrade order to a tile with max stacks (using Advanced Controls) now discards the order instead of spending money and power for nothing.
+
+### Content
+- Brought back the Tank Derby Challenge.
+- Replay lobbies are now made private when the replay starts.
+
+### Visuals & User Interface
+- Added a star to the surface texture of City tiles.
+- Added icons to the tutorial texts.
+
+### Bugfixes
+- Fixed some asymmetries on the *beetle4ffa* map.
+- Fixed a bug where orders could occasionally be ignored.
+- Fixed a bug where bypassing a unit would visually de-occupy a tile.
+- Fixed a bug causing idle animations to be synchronized instead of random.
+- Fixed a bug where a message about downloaded files would overwrite the server connection status and Play button tooltip.
+
+
 ## Hotfix 0.30.1 (17-10-2018)
 
 ### Bugfixes
