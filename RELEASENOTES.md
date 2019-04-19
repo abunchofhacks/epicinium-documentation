@@ -1,3 +1,88 @@
+# Release 0.32.0 (19-04-2019)
+
+### Gameplay
+- The Weather phase now immediately follows the Night phase, instead of alternating between Weather and Night phases. This means each season only consists of one Action phase instead of two, and each year contains four Action phases instead of eight. Various costs have changed to offset the increased speed at which buildings generate income.
+- Weather effects no longer update at the end of the Night phase.
+- Moved the Dig Trenches ability from the Gunner unit to the Rifleman unit.
+- The Gunner unit instead has a new **Lockdown** order. After executing this order, the Gunner unit stays in lockdown mode for the remainder of the Action phase and will immediately fire upon any enemy unit that enters the target space, interrupting the movement of that unit.
+- Units no longer keep their Focus order indefinitely.
+- The Gunner unit and the Sapper unit can now capture enemy tiles.
+- Added the **Outpost** tile. The Outpost tile can produce Settler and Militia units and can upgrade to a Town or Farm tile.
+- The Settler unit and the Militia unit can settle Outposts at no cost.
+- The City tile can no longer produce Rifleman units.
+- The City tile can instead produce the Militia unit for a cost of 10.
+- Increased the maximum size of the Militia unit to 3.
+- Increased the cost of the Rifleman unit to 10, up from 5.
+- Increased the cost of the Settler unit to 5, up from 1.
+- Increased the cost of the Gunner unit to 15, up from 10.
+- Increased the cost of the Sapper unit to 15, up from 10.
+- Increased the cost of the Tank unit to 25, up from 15.
+- Increased the cost of the Zeppelin unit to 25, up from 20.
+- Increased the cost of the City tile to 50, up from 20.
+- Increased the cost of the Town tile to 10, up from 5.
+- Increased the cost of the Farm tile to 5, up from 2.
+- Increased the cost of the Industry tile to 10, up from 3.
+- Increased the cost of the Barracks tile to 5, up from 3.
+- Decreased the upgrade cost of the Barracks tile to 25, down from 30.
+- Decreased the upgrade cost of the Industry tile to 50, up from 30.
+- Increased the cost of upgrading a Town tile to a City tile to 40, up from 15.
+- The Town tile no longer automatically increase in size beyond 3 buildings. Town tiles can be upgraded twice to increase their size, for a cost of 10. The Town tile retains its size when upgrading to a City tile.
+- Upgrading an Industry, Barracks or Town tile now costs 1 power, instead of depleting all of its power.
+- Tiles contribute half as much to global warming per Weather phase in Autumn, to offset the increased speed at which seasons change.
+- Grass and Forest tiles have a 25% change to gain a tree each Weather phase in Spring, down from 50%.
+- Aridification appears on 4 tiles each Weather phase in Autumn, down from 10.
+- Aridification now prefers Grass, Dirt, Soil, Crops and Rubble tiles and avoids other tiles if possible.
+- When a player resigns, they are defeated at the start of the next Action phase. If only one player remains undefeated, the game immediately proceeds to the Action phase and the remaining player is victorious.
+
+### Content
+- Removed the starting Militia units from all maps except *tutorial*, replacing them with a single Militia unit in each City tile. The maps *small8ffa* and *cornered8ffa* do not have starting Militia units.
+- Added extra Grass tiles near the top and bottom of *cornered8ffa*.
+- Removed TutorialTurtle and QuickQuack from the AI pool. The default AI is now RampantRhino.
+- Updated the HungryHippo and RampantRhino AIs for the new gameplay changes.
+- Changed default AI difficulty to medium.
+- Added the Economic Growth Challenge. In this challenge, there are no opponents to defeat. Instead, the game ends after the second winter night, and you are scored for how much money you have at the end.
+
+### Visuals & User Interface
+- Added unit and tile names below the icons in the order context menu.
+- Swapped the icons of the Focus and Lockdown orders.
+- Added a message in the chat when a player resigns.
+- The multiplayer menu chat window now also shows all messages that were received while playing a match.
+
+### Bugfixes
+- Fixed a bug where Industry tiles did not lower the humidity of surrounding tiles in Autumn.
+- Fixed a bug where aridification did not lower the humidity of surrounding tiles.
+- Fixed a bug where the order of a killed unit could be executed by a unit that moved to the same space later in the round.
+- Fixed various issues with orders appearing in the order list that did not belong to any unit.
+- Fixed some asymmetries in the RampantRhino AI, causing it to lose more when starting on the left side of the map.
+- Fixed a bug where quitting the game with Alt+F4 would not cause the player to resign from a match.
+- Fixed a crash in the settings menu when switching from fullscreen to windowed mode.
+
+### Technical
+- Network messages are now compressed to reduce bandwidth usage.
+- Updated libssl and libcrypto to 1.1.1a in Linux for security and compatibility reasons.
+- Added internal moddability features that make it easier for us to try out new gameplay changes.
+- Improved code quality of various parts of the codebase.
+
+
+## Patch 0.31.1 (19-04-2019)
+
+*This is a transitional version that only exists to facilitate patching.*
+
+### Visuals & User Interface
+- While downloading a patch, the Play button is replaced with a tooltip.
+- Added a progress counter to the tooltip when downloading large files.
+- When patching through transitional versions (such as this one), the game automatically downloads and installs the next patch.
+
+### Bugfixes
+- Fixed a bug where downloading a symbolic link would create a copy of the original file instead.
+
+### Technical
+- Instead of using ping and pong messages to keep the connection with the server alive, the client now sends cheaper pulse messages.
+- Patch files are now compressed to improve download speeds.
+- Each patch is now accompanied by a signed manifest to prevent downgrade attacks.
+- Disabled unused wide string support for log files under Windows.
+
+
 # Release 0.31.0 (28-11-2018)
 
 ### Accounts
