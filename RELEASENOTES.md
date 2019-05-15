@@ -24,7 +24,7 @@
 - Increased the cost of the Industry tile to 10, up from 3.
 - Increased the cost of the Barracks tile to 5, up from 3.
 - Decreased the upgrade cost of the Barracks tile to 25, down from 30.
-- Decreased the upgrade cost of the Industry tile to 50, up from 30.
+- Increased the upgrade cost of the Industry tile to 50, up from 30.
 - Increased the cost of upgrading a Town tile to a City tile to 40, up from 15.
 - The Town tile no longer automatically increase in size beyond 3 buildings. Town tiles can be upgraded twice to increase their size, for a cost of 10. The Town tile retains its size when upgrading to a City tile.
 - Upgrading an Industry, Barracks or Town tile now costs 1 power, instead of depleting all of its power.
