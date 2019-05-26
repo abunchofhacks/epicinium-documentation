@@ -1,10 +1,17 @@
 # Release 0.32.0 (19-04-2019)
 
+<!-- SUMMARY
+The Weather phase now immediately follows the Night phase, instead of alternating between Weather and Night phases.
+Moved the Dig Trenches ability from the Gunner to the Rifleman.
+The Gunner has a new Lockdown ability.
+Added the Outpost.
+-->
+
 ### Gameplay
 - The Weather phase now immediately follows the Night phase, instead of alternating between Weather and Night phases. This means each season only consists of one Action phase instead of two, and each year contains four Action phases instead of eight. Various costs have changed to offset the increased speed at which buildings generate income.
 - Weather effects no longer update at the end of the Night phase.
 - Moved the Dig Trenches ability from the Gunner unit to the Rifleman unit.
-- The Gunner unit instead has a new **Lockdown** order. After executing this order, the Gunner unit stays in lockdown mode for the remainder of the Action phase and will immediately fire upon any enemy unit that enters the target space, interrupting the movement of that unit.
+- The Gunner unit instead has a new **Lockdown** ability. After executing this order, the Gunner unit stays in lockdown mode for the remainder of the Action phase and will immediately fire upon any enemy unit that enters the target space, interrupting the movement of that unit.
 - Units no longer keep their Focus order indefinitely.
 - The Gunner unit and the Sapper unit can now capture enemy tiles.
 - Added the **Outpost** tile. The Outpost tile can produce Settler and Militia units and can upgrade to a Town or Farm tile.
