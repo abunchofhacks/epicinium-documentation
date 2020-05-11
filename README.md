@@ -18,7 +18,7 @@ Epicinium is being developed for Windows, Linux and Mac OS X.
 
 # Closed Beta
 
-Epicinium is currently in closed beta. The beta version offers a work-in-progress look at the multiplayer portion of the game. Join our [Discord community](https://discord.gg/vQhTURC) to follow its progress, find other players and have a chat with the developers. 
+Epicinium is currently in closed beta. The beta version offers a work-in-progress look at the multiplayer portion of the game. Join our [Discord community](https://discord.gg/vQhTURC) to follow its progress, find other players and have a chat with the developers.
 If you just want to be kept up-to-date with the latest developments around Epicinium, you can subscribe to our mailing list over on [the Epicinium website](https://www.epicinium.nl).
 
 
@@ -30,6 +30,6 @@ We also have a [wiki](https://github.com/SLiV9/epicinium/wiki) with an in-depth 
 
 # Contact
 
-Epicinium is being developed by [A Bunch of Hacks](https://www.abunchofhacks.coop), a gamedev cooperative consisting of [Sander in 't Veld](https://twitter.com/sanderintveld) and Daan Mulder.
+Epicinium is being developed by [A Bunch of Hacks](https://www.abunchofhacks.coop#team), a gamedev cooperative from the Netherlands.
 Have questions?
 We'd love to hear from you on [Twitter](https://twitter.com/EpiciniumGame) or at [info@epicinium.com](mailto:info@epicinium.com). Or join our community on [Discord](https://discord.gg/vQhTURC)!

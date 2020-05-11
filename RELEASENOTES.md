@@ -1,11 +1,65 @@
-# Release 0.32.0 (19-04-2019)
+# Release 0.33.0 (2020-05-11)
 
 <!-- SUMMARY
-The Weather phase now immediately follows the Night phase, instead of alternating between Weather and Night phases.
-Moved the Dig Trenches ability from the Gunner to the Rifleman.
-The Gunner has a new Lockdown ability.
-Added the Outpost.
+Improved building, tree and mountain sprites.
+Removed the Death global warming effect.
+City benefits less from nearby snowed tiles other than Forest.
+Reduced the cost of Settler, Rifleman and Industry.
+Tiles can be upgraded while occupied by a friendly unit.
 -->
+
+### Gameplay
+- Removed the Death global warming effect.
+- City tiles no longer benefit from nearby snowed tiles, but always fully benefit from nearby Forest tiles, even if they are covered with snow.
+- Decreased the cost of the Rifleman unit to 5, down from 10.
+- Decreased the cost of the Settler unit to 1, down from 5.
+- Decreased the cost of the Industry tile to 5, down from 10.
+- The Outpost tile can no longer upgrade to a Town or Farm.
+- The Settler unit can no longer directly settle a City.
+- Upgrade orders are no longer postponed if the tile is occupied by a friendly ground unit.
+- Players can give empty orders by dragging, causing subsequent orders to be artificially delayed. Empty orders are collapsed when giving a new order.
+
+### Content
+- Adjusted all maps to ensure that at least one City for each player can become fully powered, even in winter.
+- Added the Morale Challenge. In this challenge money is replaced with "morale", which is gained when units are killed and tiles are destroyed or captured.
+- Disabled the planning timer when creating a "Versus AI" lobby.
+- Adjusted the RampantRhino AI to avoid issuing orders it cannot afford.
+- Updated the credits.
+
+### Visuals & User Interface
+- Improved building, tree and mountain sprites.
+- Improved grass texture.
+- Improved the color palette.
+- Trees change color when a tile loses all humidity.
+- Improved the automatic camera panning, in particular during Bombard orders.
+- Decreased the maximum distance the camera can extend past the edge of the map when scrolling manually.
+- Added separate icons in the multiplayer menu for replay lobbies, lobbies that are already in progress, players that are watching a replay and players that spectating a match in progress.
+
+### Bugfixes
+- Fixed multiple bugs resulting in Discord Rich Presence not activating.
+- Fixed a bug where Discord Rich Presence reported an incorrect party size.
+- Fixed a bug causing the HungryHippo AI to issue invalid Move orders.
+- Fixed a segfault when using Selection Mode: Context Menu.
+- Fixed disappearing text in the Feedback menu.
+- Fixed an issue where pressing the "One vs One" button could result in joining a match in progress as a spectator.
+- Fixed a bug where the chat could be flooded with "Alice is online" messages when joining the server.
+- Fixed a bug where rearranging orders in the order list did not update the Ready button.
+- Fixed a bug where orders of killed units were not disabled in the order list.
+- Fixed a bug where tooltips did not appear despite UI elements being hovered.
+- Fixed a bug in measuring in-game distances.
+- Fixed a bug where the team color palettes were flipped for yellow/teal and black/pink when saving and flipped back when loading.
+
+### Technical
+- Improved performance when contacting the server or downloading files.
+- Added support for automatic server migration.
+- Replaced message-based patching with HTTP-based patching.
+- Removed the need for a patch primer file.
+- The client prevents connection to the server when there are storage issues.
+- Minor graphical performance improvements.
+- Lowered maximum map width and height to 32.
+
+
+# Release 0.32.0 (2019-04-19)
 
 ### Gameplay
 - The Weather phase now immediately follows the Night phase, instead of alternating between Weather and Night phases. This means each season only consists of one Action phase instead of two, and each year contains four Action phases instead of eight. Various costs have changed to offset the increased speed at which buildings generate income.
@@ -71,7 +125,7 @@ Added the Outpost.
 - Improved code quality of various parts of the codebase.
 
 
-## Patch 0.31.1 (19-04-2019)
+## Patch 0.31.1 (2019-04-19)
 
 *This is a transitional version that only exists to facilitate patching.*
 
@@ -90,7 +144,7 @@ Added the Outpost.
 - Disabled unused wide string support for log files under Windows.
 
 
-# Release 0.31.0 (28-11-2018)
+# Release 0.31.0 (2018-11-28)
 
 ### Accounts
 - For the remainder of the Kickstarter campaign, i.e. until December 1st 22:59 UTC, the beta is open for everyone.
@@ -115,13 +169,13 @@ Added the Outpost.
 - Fixed a bug where a message about downloaded files would overwrite the server connection status and Play button tooltip.
 
 
-## Hotfix 0.30.1 (17-10-2018)
+## Hotfix 0.30.1 (2018-10-17)
 
 ### Bugfixes
 - Fixed severe screen flickering issues on Windows.
 
 
-# Release 0.30.0 (17-10-2018)
+# Release 0.30.0 (2018-10-17)
 
 ### Gameplay
 - Firestorm occurs at random on 4% of the map for every 40% of the map that is covered by chaos, instead of 24% for every 40%.
@@ -161,7 +215,7 @@ Added the Outpost.
 - Added *settings.json* to the log files that can be attached to a bug report.
 
 
-## Hotfix 0.29.1 (21-09-2018)
+## Hotfix 0.29.1 (2018-09-21)
 
 *This is a server-only hotfix that is compatible with release 0.29.0.*
 
@@ -170,7 +224,7 @@ Added the Outpost.
 - Fixed an issue causing users to appear multiple times in the user list.
 
 
-# Release 0.29.0 (21-09-2018)
+# Release 0.29.0 (2018-09-21)
 
 ### Accounts
 - This version marks the start of the Closed Beta. A key is required to gain access to this Closed Beta.
@@ -196,7 +250,7 @@ Added the Outpost.
 - Improved performance of the main menu.
 
 
-## Hotfix 0.28.3 (03-09-2018)
+## Hotfix 0.28.3 (2018-09-03)
 
 *This is a server-only hotfix that is compatible with release 0.28.2.*
 
@@ -204,7 +258,7 @@ Added the Outpost.
 - Fixed a bug where Discord Rich Presence users could not post an Invite to Spectate link, despite the lobby being public.
 
 
-# Release 0.28.2 (31-08-2018)
+# Release 0.28.2 (2018-08-31)
 
 ### Visuals & User Interface
 - Animations can now be sped up by holding down the left mouse button, and paused temporarily by holding down the right mouse button.
@@ -222,7 +276,7 @@ Added the Outpost.
 - Updated libssl and libcrypto to 1.1.0i in Windows and 1.0.2p in OS X for security. Linux still uses the system libraries.
 
 
-## Patch 0.28.1 (28-08-2018)
+## Patch 0.28.1 (2018-08-28)
 
 *This is a server-only patch that is compatible with release 0.28.0.*
 
@@ -230,7 +284,7 @@ Added the Outpost.
 - The server now communicates with a Discord bot instead of posting information about who is online directly to a Discord channel.
 
 
-# Release 0.28.0 (25-08-2018)
+# Release 0.28.0 (2018-08-25)
 
 ### Social
 - Added Discord Rich Presence integration.
@@ -265,7 +319,7 @@ Added the Outpost.
 - Fixed a server crash that could occur due to multithreading issues.
 
 
-## Patch 0.27.1 (25-08-2018)
+## Patch 0.27.1 (2018-08-25)
 
 *This is a transitional version that only exists to facilitate patching.*
 
@@ -277,7 +331,7 @@ Added the Outpost.
 - The game can now patch the launcher.
 
 
-# Release 0.27.0 (06-08-2018)
+# Release 0.27.0 (2018-08-06)
 
 ### Content
 - Added the Everything is Free Challenge. In this challenge, you play a normal match except that all unit and tile costs have been reduced to 0. To earn 1 star, get at least 1 point. To earn 2 stars, get at least 30 points. To earn 3 stars, get at least 80 points.
@@ -291,7 +345,7 @@ Added the Outpost.
 - The server now sends lobby info before player info, so that the lobby ids are known before you hear which lobbies are joined.
 
 
-## Hotfix 0.26.1 (24-07-2018)
+## Hotfix 0.26.1 (2018-07-24)
 
 *This hotfix only applies to debian64 and is compatible with version 0.26.0.*
 
@@ -299,7 +353,7 @@ Added the Outpost.
 - Fixed a bug where the debian64 version of the game would connect with an internal server instead of with the live server.
 
 
-# Release 0.26.0 (20-07-2018)
+# Release 0.26.0 (2018-07-20)
 
 ### Accounts
 - Challenge maps no longer affect rating.
@@ -320,7 +374,7 @@ Added the Outpost.
 - Improved text rendering.
 
 
-# Release 0.25.0 (06-07-2018)
+# Release 0.25.0 (2018-07-06)
 
 ### Accounts
 - Players can now earn stars by playing weekly challenge maps. Each challenge can award up to three stars based on requirements given in a mission briefing. Players can retry challenges in order to get more stars; only the best attempt counts.
@@ -354,7 +408,7 @@ Added the Outpost.
 - Added a text file with install instructions for those who have trouble getting the game to run.
 
 
-# Release 0.24.0 (01-06-2018)
+# Release 0.24.0 (2018-06-01)
 
 ### Accounts
 - Players no longer lose rating points if they resign before the third action phase has started.
@@ -380,7 +434,7 @@ Added the Outpost.
 - Improved the stability of the server when the connection with a client deteriorates.
 
 
-# Release 0.23.1 (25-05-2018)
+# Release 0.23.1 (2018-05-25)
 
 ### Content
 - Updated the tutorial to match the gameplay changes introduced in 0.23.0.
@@ -397,7 +451,7 @@ Added the Outpost.
 - Fixed a bug where a locked lobby could appear unlocked.
 
 
-# Release 0.23.0 (21-05-2018)
+# Release 0.23.0 (2018-05-21)
 
 ### Accounts
 - Slightly changed the way the score you obtain during a match affects your rating. Every match you play where you obtain a score higher than your current rating now causes your rating to increase by a percentage of the difference, but at least 0.1. Every match you play where you obtain a score lower than your current rating causes your rating to decrease by a percentage of the difference, but at least 0.1.
@@ -427,7 +481,7 @@ Added the Outpost.
 - Fixed a bug where the camera could no longer be moved with WASD or the arrow keys if the newspaper announcement appeared while the chat window was open.
 
 
-## Hotfix 0.22.2 (15-05-2018)
+## Hotfix 0.22.2 (2018-05-15)
 
 *This is a server-only hotfix that is compatible with release 0.22.0.*
 
@@ -438,7 +492,7 @@ Added the Outpost.
 - When a user attempts to reconnect after a crash, the server might believe that they are still online. Instead of rejecting the attempt, it will now be put on hold for a few moments until the old connection has been dropped.
 
 
-## Hotfix 0.22.1 (14-05-2018)
+## Hotfix 0.22.1 (2018-05-14)
 
 *This is a server-only hotfix that is compatible with release 0.22.0.*
 
@@ -449,7 +503,7 @@ Added the Outpost.
 - Lowered the server-side connection timeout to 2 minutes, down from 10 minutes.
 
 
-# Release 0.22.0 (12-05-2018)
+# Release 0.22.0 (2018-05-12)
 
 ### Gameplay
 - When a unit performs a bypass attack past an entrenched unit and an enemy unit retaliates, the entrenched unit is no longer involved in the resulting damage step.
@@ -489,7 +543,7 @@ Added the Outpost.
 - Made sure the game window is never displayed at a resolution the monitor does not support in Fullscreen mode.
 
 
-## Release 0.21.1 (02-05-2018)
+## Release 0.21.1 (2018-05-02)
 
 *This is a Linux-only release that fixes compatibility with Ubuntu 18.04.*
 
@@ -497,7 +551,7 @@ Added the Outpost.
 - Fixed a compatibility issue that caused the game not to start on certain Linux distributions due to differences in libcurl.
 
 
-# Release 0.21.0 (26-04-2018)
+# Release 0.21.0 (2018-04-26)
 
 ### Content
 - Added the maps **small3ffa**, **small4ffa** and **small8ffa**. Unlike the old free-for-all maps whose size scaled with the number of players, these maps are roughly the same size as the *small1v1* map. The chaos thresholds now scale with the size of the map instead of with the number of players, so expect a lot of global warming on these maps.
@@ -510,7 +564,7 @@ Added the Outpost.
 - Fixed a bug where non-existing tile buildings could remain on the screen indefinitely after the tile had been revealed.
 - Fixed a bug where question marks appeared above units that still had old orders to execute.
 - Fixed a bug where no sound was played when an Industry or Barracks tile was upgraded.
-- Fixed a bug where giving an order after pressing the ready button caused that order to remain in the order list when the action phase started.
+- Fixed a bug where giving an order after pressing the Ready button caused that order to remain in the order list when the action phase started.
 - Fixed a bug where shadows from dragged players in the lobby could persist when the game was started.
 - Fixed a bug in the lobby menu where changing a player's color could move them to the observers.
 - Fixed a bug where a disconnected player could leave behind a ghost in the lobby.
@@ -518,7 +572,7 @@ Added the Outpost.
 - Fixed a compatibility issue on Arch Linux.
 
 
-# Release 0.20.0 (14-04-2018)
+# Release 0.20.0 (2018-04-14)
 
 ### Gameplay
 - Disabled fog of war for human players. Fog of war can be reenabled per player by switching between "global vision" (no fog of war) and "normal vision" (fog of war).
@@ -548,7 +602,7 @@ Added the Outpost.
 - You will now receive an email if you are resetting your password or when your account is locked from too many failed login attempts.
 
 
-# Release 0.19.0 (05-04-2018)
+# Release 0.19.0 (2018-04-05)
 
 ### Accounts
 - Users can no longer join the server multiple times at once with the same account.
@@ -574,7 +628,7 @@ Added the Outpost.
 - Fixed a bug where sprites would show the wrong frame once every couple of draw steps in 32-bit Windows versions of the game.
 
 
-## Hotfix 0.18.1 (26-03-2018)
+## Hotfix 0.18.1 (2018-03-26)
 
 *This is a server-only hotfix that is compatible with release 0.18.0.*
 
@@ -586,7 +640,7 @@ Added the Outpost.
 - Improved the RampantRhino AI to prevent its units from blocking each other.
 
 
-# Release 0.18.0 (21-03-2018)
+# Release 0.18.0 (2018-03-21)
 
 ### Accounts
 - The game now requires an Epicinium account with username, email and password. This allows you to log in with the same account on different computers. (**Issue #33**)
@@ -621,7 +675,7 @@ Added the Outpost.
 - Account files are now used to (optionally) remember sessions.
 
 
-## Hotfix 0.17.1 (12-03-2018)
+## Hotfix 0.17.1 (2018-03-12)
 
 *This is a server-only hotfix that is compatible with release 0.17.0.*
 
@@ -631,7 +685,7 @@ Added the Outpost.
 - Fixed an issue where a single lobby crash caused the server to crash.
 
 
-# Release 0.17.0 (01-03-2018)
+# Release 0.17.0 (2018-03-01)
 
 *Due to a bug in the patcher, Windows users may need to update manually.*
 
@@ -674,7 +728,7 @@ Added the Outpost.
 - Fixed a bug that prevented patches from being installed correctly under Windows.
 
 
-# Release 0.16.1 (16-02-2018)
+# Release 0.16.1 (2018-02-16)
 
 ### Visuals & User Interface
 - Added a settings menu. (**Issue #3**)
@@ -684,7 +738,7 @@ Added the Outpost.
 - Reduced RAM usage by about 75%.
 
 
-# Release 0.16.0 (09-02-2018)
+# Release 0.16.0 (2018-02-09)
 
 ### Gameplay
 - Mountain tiles now cause nearby spaces to start with 4 humidity.
@@ -712,13 +766,13 @@ Added the Outpost.
 - Fixed bug where the chaometer could grow beyond its container.
 - Fixed bug where Dirt turns to Desert before 20% of the map is covered by chaos.
 - Fixed bug where AI difficulty was not synchronized correctly when a player joined a lobby.
-- Fixed bug where orders would sometimes not be sent at the end of the planning phase if a player did not press the ready button.
+- Fixed bug where orders would sometimes not be sent at the end of the planning phase if a player did not press the Ready button.
 
 ### Technical
 - If the game was installed via the Itch.io desktop application or via the GameJolt desktop application, the game no longer patches itself to prevent extraneous patching.
 
 
-## Hotfix 0.15.1 (02-02-2018)
+## Hotfix 0.15.1 (2018-02-02)
 
 *This is a server-only hotfix that is compatible with release 0.15.0.*
 
@@ -729,7 +783,7 @@ Added the Outpost.
 - When all players are disconnected from a non-tutorial game in progress, the lobby is not disbanded immediately but remains alive for ten minutes.
 
 
-# Release 0.15.0 (27-01-2018)
+# Release 0.15.0 (2018-01-27)
 
 ### Gameplay
 - Removed temperature from the game.
@@ -773,7 +827,7 @@ Added the Outpost.
 - Fixed a bug where buildings and trees could be improperly placed.
 
 
-# Release 0.14.0 (20-01-2018)
+# Release 0.14.0 (2018-01-20)
 
 ### Gameplay
 - The City tile now generates income.
@@ -809,7 +863,7 @@ Added the Outpost.
 - The client and the server now ping each other more often to keep the TCP connection alive.
 
 
-## Hotfix 0.13.0 (12-01-2018)
+## Hotfix 0.13.0 (2018-01-12)
 
 *Due to a bug in the patcher, updating from v0.11.0 or earlier to v0.12.0 would result in a broken version of the game. This hotfix should allow players to first patch to v0.12.1 and then to v0.13.0.*
 
@@ -820,7 +874,7 @@ Added the Outpost.
 - The game is now able to patch the patcher before the patcher patches the game.
 
 
-# Release 0.12.0 (11-01-2018)
+# Release 0.12.0 (2018-01-11)
 
 ### Gameplay
 - Decreased the maximum size of the Rifleman unit to 3, down from 5.
@@ -858,7 +912,7 @@ Added the Outpost.
 - Fixed a bug where the camera would fly past a tile being captured instead of stopping and showing it.
 
 
-# Release 0.11.0 (23-12-2017)
+# Release 0.11.0 (2017-12-23)
 
 ### Content
 - Added the map **oasis1v1**.
@@ -880,7 +934,7 @@ Added the Outpost.
 - Reduced the size of the data sent to observers by about 80 percent.
 
 
-## Hotfix 0.10.1 (18-12-2017)
+## Hotfix 0.10.1 (2017-12-18)
 
 *This is a server-only hotfix that is compatible with release 0.10.0.*
 
@@ -888,7 +942,7 @@ Added the Outpost.
 - Fixed issue where the tutorial opponent would be QuickQuack instead of DemoDuck.
 
 
-# Release 0.10.0 (15-12-2017)
+# Release 0.10.0 (2017-12-15)
 
 ### Gameplay
 - When a player leaves a game in progress, they resign. Once resigned, a player can rejoin the lobby as an observer but can no longer win.
@@ -911,7 +965,7 @@ Added the Outpost.
 - The game ceases drawing if its window is hidden or minimized. (**Issue #28**)
 
 
-# Release 0.9.1 (07-12-2017)
+# Release 0.9.1 (2017-12-07)
 
 ### Gameplay
 - After the game ends, the entire map is revealed to all players.
@@ -930,7 +984,7 @@ Added the Outpost.
 - Fixed a bug where Industry tiles could lower the humidity of surrounding tiles below 35 percent.
 
 
-# Release 0.9.0 (04-12-2017)
+# Release 0.9.0 (2017-12-04)
 
 ### Gameplay
 - The **Town** tile replaces the Settlement tile. The Town tile can have up to 5 buildings, generates income and can produce Settler units, but cannot produce Rifleman units.
@@ -975,7 +1029,7 @@ Added the Outpost.
 - Fixed minor bug where the chat indicatator would keep saying NAME after renaming lobby.
 
 
-# Release 0.8.0 (23-11-2017)
+# Release 0.8.0 (2017-11-23)
 
 ### Accounts
 - The game will ask you for a username the first time you log in with version 0.8.0 and automatically log you in with that username afterwards. To log in with that username on a different computer, you need to copy the *.acc* file from the *accounts* folder. To log in as a different user, you need to override the username in the settings.
@@ -1015,7 +1069,7 @@ Added the Outpost.
 - We now have a Discord bot that posts when users go online or offline.
 
 
-## Hotfix 0.7.2 (07-11-2017)
+## Hotfix 0.7.2 (2017-11-07)
 
 *This is a server-only hotfix that is compatible with release 0.7.0.*
 
@@ -1027,7 +1081,7 @@ Added the Outpost.
 - Fixed possible issue that could cause the game to crash when receiving multiple messages from the server simultaneously.
 
 
-## Hotfix 0.7.1 (05-11-2017)
+## Hotfix 0.7.1 (2017-11-05)
 
 *This is a server-only hotfix that is compatible with release 0.7.0.*
 
@@ -1036,7 +1090,7 @@ Added the Outpost.
 - Fixed a bug where colors assigned to an AI player would be permanently unavailable after the AI player was removed from the lobby.
 
 
-# Release 0.7.0 (04-11-2017)
+# Release 0.7.0 (2017-11-04)
 
 ### Content
 - Removed singleplayer modes from the main menu.
@@ -1063,7 +1117,7 @@ Added the Outpost.
 - Fixed issue where the text of an interface element was drawn over an interface element in front of it.
 
 
-# Release 0.6.0 (20-10-2017)
+# Release 0.6.0 (2017-10-20)
 
 ### Gameplay
 - A Tank unit executing a Shell order now fires an additional volley after the first.
@@ -1105,7 +1159,7 @@ Added the Outpost.
 - Usernames are now required to be between 3 and 36 characters in length.
 
 
-# Release 0.5.0 (16-10-2017)
+# Release 0.5.0 (2017-10-16)
 
 ### Content
 - Made the tutorial AI produce weaker riflemen.
@@ -1123,7 +1177,7 @@ Added the Outpost.
 - Added these release notes.
 
 
-# Release 0.4.4 (12-10-2017)
+# Release 0.4.4 (2017-10-12)
 
 ### Content
 - Added a simple AI opponent for singleplayer. (**Issue #9**)
@@ -1131,7 +1185,7 @@ Added the Outpost.
 - Added credits.
 
 ### Visuals & User Interface
-- Changed the ready button checkbox.
+- Changed the Ready button checkbox.
 - Changed font to Munro, which has a more permissive license.
 
 ### Bugfixes
@@ -1141,5 +1195,5 @@ Added the Outpost.
 - Hardcoded font into the binary.
 
 
-# Release 0.4.2 (09-10-2017)
+# Release 0.4.2 (2017-10-09)
 *First beta version.*
