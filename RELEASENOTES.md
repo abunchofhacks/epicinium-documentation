@@ -1,12 +1,19 @@
-# Release 0.33.0 (2020-05-11)
+# Patch 0.33.1 (2020-05-30)
 
 <!-- SUMMARY
-Improved building, tree and mountain sprites.
-Removed the Death global warming effect.
-City benefits less from nearby snowed tiles other than Forest.
-Reduced the cost of Settler, Rifleman and Industry.
-Tiles can be upgraded while occupied by a friendly unit.
+Server-only hotfix that is compatible with release 0.33.0.
+Fixed an issue where RampantRhino built Outposts as if they were Towns, instead of as forward bases.
+Fixed an issue where MacOS clients could no longer connect to the server.
 -->
+
+*This is a server-only hotfix that is compatible with release 0.33.0.*
+
+### Bugfixes
+- Fixed an issue where RampantRhino built Outposts as if they were Towns, instead of as forward bases.
+- Fixed an issue where MacOS clients could no longer connect to the server.
+
+
+# Release 0.33.0 (2020-05-11)
 
 ### Gameplay
 - Removed the Death global warming effect.
@@ -50,6 +57,7 @@ Tiles can be upgraded while occupied by a friendly unit.
 - Fixed a bug where the team color palettes were flipped for yellow/teal and black/pink when saving and flipped back when loading.
 
 ### Technical
+- Transitioned MacOS build to 64-bit. MacOS 32-bit is no longer supported.
 - Improved performance when contacting the server or downloading files.
 - Added support for automatic server migration.
 - Replaced message-based patching with HTTP-based patching.
