@@ -1,4 +1,6 @@
 
+## How to play
+
 Epicinium is a multiplayer strategy game with simultaneous turns.
 Each turn consists of a planning phase, where all players decide which orders they want to give their units that turn,
 followed by an action phase, where players watch as the the orders play out.
