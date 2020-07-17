@@ -1,10 +1,41 @@
-# Patch 0.33.1 (2020-05-30)
+## Patch 0.34.1 (2020-07-17)
 
 <!-- SUMMARY
-Server-only hotfix that is compatible with release 0.33.0.
-Fixed an issue where RampantRhino built Outposts as if they were Towns, instead of as forward bases.
-Fixed an issue where MacOS clients could no longer connect to the server.
+Reworked the in-game UI.
+Games can now be played on custom maps.
+Added the Morale Challenge map with its own ruleset to the custom map pool, as well as twelve maps made by Overlord_Vadim.
 -->
+
+### Content
+- Games can now be played on custom maps by selecting "Custom maps" in the lobby settings. Custom maps may be unbalanced and therefore these games are not rated.
+- Added the old *snowcut1v1* map to the custom map pool.
+- Added the *challenge_morale* map to the custom map pool. Games played on this map use the Morale ruleset. The HungryHippo AI is not available on this map.
+- Added twelve maps made by Overlord_Vadim to the custom map pool.
+
+### Visuals & User Interface
+- Further reworked the in-game UI.
+- Double-clicking a lobby in the multiplayer menu now joins that lobby.
+- Removed the "create lobby" and "join lobby" buttons in the multiplayer menu.
+
+### Bugs
+- Fixed a crash that could occur when a produced unit attempts to rally into an adjacent space under lockdown but dies due to an attack of opportunity.
+- Fixed a bug where the info boxes would briefly appear when the left mouse button was pressed during animations.
+- Fixed a bug where the Escape key did not work while animations were playing.
+
+
+# Release 0.34.0 (2020-06-25)
+
+### Accounts
+- During the Indigo 2020 brawl event on June 26, new users can log in as a guest using their Discord username if the Discord desktop application is running. Ratings and stars are not recorded when playing as a guest.
+
+### Gameplay
+- During this event, the One vs One gamemode is played with the Morale ruleset on a special map, and all gamemodes other than One vs One are disabled.
+
+### Visuals & User Interface
+- Reworked the in-game UI.
+
+
+## Patch 0.33.1 (2020-05-30)
 
 *This is a server-only hotfix that is compatible with release 0.33.0.*
 
