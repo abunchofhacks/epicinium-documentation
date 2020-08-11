@@ -1,10 +1,39 @@
-## Patch 0.34.1 (2020-07-17)
+# Release 0.35.0 (2020-08-11)
 
 <!-- SUMMARY
-Reworked the in-game UI.
-Games can now be played on custom maps.
-Added the Morale Challenge map with its own ruleset to the custom map pool, as well as twelve maps made by Overlord_Vadim.
+Added a NeuralNewt AI that uses an evolutionary neural network.
+Added an overview map and a detailed guide.
+Reimplemented the server architecture to be more stress-resistant.
+Made it possible to change usernames upon request.
 -->
+
+### Accounts
+- Lowered the rating increase percentage for two-player games played outside of One vs One lobbies to 5% per human player, down from 10%. Also lowered the rating decrease percentage for these matches to 5%, down from 10%.
+- Made it possible to change usernames upon request.
+
+### Content
+- Added the NeuralNewt AI. This AI uses a neural network that been trained using neuro-evolution.
+- Added an overview map that can be used to view all tile types, unit types and hazardous weather effects in the game. It can be opened from the multiplayer menu.
+- Players in One vs One lobbies can no longer add bots, choose non-*1v1* maps or custom maps, change the planning phase timer or grant players global vision.
+
+### Visuals & User Interface
+- Added a button in the multiplayer menu that opens a detailed guide of all structures, units, abilities, construction paths and tile properties in the default browser.
+- Replaced the "Free For All" panel with a "Custom Lobby" panel. Clicking this panel no longer automatically joins open lobbies on *ffa* maps.
+- Lobbies are now tagged with "1v1" if they are One vs One lobbies, and with "custom" if they have custom maps enabled.
+
+### Bugfixes
+- Fixed a bug where the map would not fade in properly on maps that were exactly 20 columns wide and 13 rows high.
+- Fixed a bug where an AI could give an invalid Lockdown order to a Gunner unit if it was placed on the edge of the *oasis1v1* map.
+- Fixed a bug where "Welcome back" and "Your rating is now X" messages did not appear when returning to the multiplayer menu after a game has ended.
+- Fixed a missing icon on the info card of Crops.
+
+### Technical
+- Reimplemented the server architecture to be more flexible and more stress-resistant.
+- Changed message length endianness to be explicitly network byte order (big-endian) instead of host byte order (usually little-endian).
+- The game gets the latest leaderboard from our website instead of from the server.
+
+
+# Release 0.34.1 (2020-07-19)
 
 ### Content
 - Games can now be played on custom maps by selecting "Custom maps" in the lobby settings. Custom maps may be unbalanced and therefore these games are not rated.
@@ -17,7 +46,7 @@ Added the Morale Challenge map with its own ruleset to the custom map pool, as w
 - Double-clicking a lobby in the multiplayer menu now joins that lobby.
 - Removed the "create lobby" and "join lobby" buttons in the multiplayer menu.
 
-### Bugs
+### Bugfixes
 - Fixed a crash that could occur when a produced unit attempts to rally into an adjacent space under lockdown but dies due to an attack of opportunity.
 - Fixed a bug where the info boxes would briefly appear when the left mouse button was pressed during animations.
 - Fixed a bug where the Escape key did not work while animations were playing.
