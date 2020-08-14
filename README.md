@@ -32,4 +32,4 @@ We also have a [wiki](https://github.com/SLiV9/epicinium/wiki) with an in-depth 
 
 Epicinium is being developed by [A Bunch of Hacks](https://www.abunchofhacks.coop#team), a gamedev cooperative from the Netherlands.
 Have questions?
-We'd love to hear from you on [Twitter](https://twitter.com/EpiciniumGame) or at [info@epicinium.com](mailto:info@epicinium.com). Or join our community on [Discord](https://discord.gg/vQhTURC)!
+We'd love to hear from you on [Twitter](https://twitter.com/EpiciniumGame) or at [info@epicinium.nl](mailto:info@epicinium.nl). Or join our community on [Discord](https://discord.gg/vQhTURC)!
