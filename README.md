@@ -1,35 +1,37 @@
-# Epicinium
+## Epicinium
 
-Epicinium is a turn-based strategy game with environmental gameplay mechanics.
+This repository contains documentation files for Epicinium and includes a [wiki](https://github.com/SLiV9/epicinium/wiki) explaining the game's mechanics.
+The tutorials are no longer up to date but the wiki is accurate.
 
-![A city under attack.](https://i.imgur.com/wjlzkew.gif "A city under attack.")
+Epicinium is a strategy game where nature is a finite resource, available for Windows, Mac and Linux.
+Is it worth winning a war when you end up conquering nothing but dirt and ash?
 
-During the day, players give orders and watch their units execute them.
-At night, cities grow depending on the number of grasslands and forests surrounding them.
-Building industry provides more income and allows for the production of tanks,
-but industry rapidly increases global warming to ludicrous levels.
-At the end of the game, the winner is scored for whatever's left of the world at that point.
+Epicinium is handcrafted to bring you a fresh strategic experience.
+Thanks to fast, simultaneous turns, you don't waste time waiting for your move.
+Your economy and troops are influenced by the environment and increasingly severe weather effects.
+Players balance firepower and preservation of resources, as the victor is scored for how much nature remains when the dust settles. 
 
-![When global warming reaches critical levels, Firestorm ravages tiles and units alike.](https://i.imgur.com/yqfj0kG.gif "When global warming reaches critical levels, Firestorm ravages tiles and units alike.")
-![A Sapper unit destroys the last enemy City tile. All the Grass and Forest tiles are scored.](https://i.imgur.com/ATKFHkM.gif "A Sapper unit destroys the last enemy City tile. All the Grass and Forest tiles are scored.")
+Epicinium was released on October 12th, 2020 as a free game on [Steam](https://store.steampowered.com/app/1286730/Epicinium/) and [itch.io](https://abunchofhacks.itch.io/epicinium).
+The full [source code](https://github.com/abunchofhacks/Epicinium) is made available under the AGPL-3.0 License.
 
-Epicinium is being developed for Windows, Linux and Mac OS X.
+Epicinium is being developed by [A Bunch of Hacks](https://abunchofhacks.coop),
+a worker cooperative for video game and software development from the Netherlands.
+Contact us at [info@epicinium.nl](mailto:info@epicinium.nl).
 
+## Trailer
+[![Epicinium trailer](https://img.youtube.com/vi/WdDASPMD5Ec/0.jpg)](https://www.youtube.com/watch?v=WdDASPMD5Ec)
 
-# Closed Beta
+## Support
 
-Epicinium is currently in closed beta. The beta version offers a work-in-progress look at the multiplayer portion of the game. Join our [Discord community](https://discord.gg/vQhTURC) to follow its progress, find other players and have a chat with the developers.
-If you just want to be kept up-to-date with the latest developments around Epicinium, you can subscribe to our mailing list over on [the Epicinium website](https://www.epicinium.nl).
+Epicinium is and will remain free software. If you wish to support Epicinium and A Bunch of Hacks, you have the option to [name-your-own-price](https://abunchofhacks.itch.io/epicinium/purchase) or [buy the game's soundtrack](https://store.steampowered.com/app/1442600/Epicinium__Extended_Soundtrack/).
 
+## Getting started
 
-# Resources
-
-New to Epicinium? There are several resources available to get started. You can play the in-game tutorial, watch the [introduction video](https://www.youtube.com/watch?v=E2wUIfteu-w) or ask other community members on Discord.
+New to Epicinium? There are several resources available to get started. You can play the in-game tutorial or ask other community members on Discord.
 We also have a [wiki](https://github.com/SLiV9/epicinium/wiki) with an in-depth exposition of all the mechanics and units in the game.
 
+## Related repositories
 
-# Contact
-
-Epicinium is being developed by [A Bunch of Hacks](https://www.abunchofhacks.coop#team), a gamedev cooperative from the Netherlands.
-Have questions?
-We'd love to hear from you on [Twitter](https://twitter.com/EpiciniumGame) or at [info@epicinium.nl](mailto:info@epicinium.nl). Or join our community on [Discord](https://discord.gg/vQhTURC)!
+*  [Epicinium](https://github.com/abunchofhacks/Epicinium), the full source code for Epicinium
+*  [Epicinium assets](https://github.com/abunchofhacks/Epicinium-assets), assets for Epicinium including audio, sprites, maps, rulesets and other resources
+*  [Epicinium-NeuralNewt](https://github.com/abunchofhacks/Epicinium-NeuralNewt), a libtorch framework for training neural networks to play Epicinium via NeuralNewt, a parameterized decision tree AI, with evolutionary training techniques
