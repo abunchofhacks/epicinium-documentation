@@ -1,11 +1,85 @@
-# Release 0.35.0 (2020-08-11)
+## Patch 1.0.5 (2020-10-20)
 
 <!-- SUMMARY
-Added a NeuralNewt AI that uses an evolutionary neural network.
-Added an overview map and a detailed guide.
-Reimplemented the server architecture to be more stress-resistant.
-Made it possible to change usernames upon request.
+Ending a game with a score lower than your current rating increases your rating by 0.1 instead of decreasing it by a percentage.
+Fixed a bug where clients were kicked when copying AI opponents.
 -->
+
+*This is a server-only hotfix that is compatible with release 1.0.0.*
+
+### Accounts
+- Ending a game with a score that is lower than your current rating (but higher than 0) now causes your rating to increase by 0.1, instead of decrease by a percentage of the difference.
+
+### Bugfixes
+- Fixed a bug where clients were kicked for no reason if they tried to Copy an AI opponent.
+
+
+## Patch 1.0.4 (2020-10-16)
+
+*This is a Windows-only patch that is compatible with release 1.0.0.*
+
+### Bugfixes
+- Fixed an issue where the game was unplayable on Windows if the AppData path contained a non-ASCII character, such as in the user's name.
+- Temporarily disabled translation support on Windows as it is not yet fully functional, but instead causes incomplete translations to be shown instead of English.
+
+
+## Patch 1.0.2 (2020-10-13)
+
+*This is a server-only hotfix that is compatible with release 1.0.0.*
+
+### Bugfixes
+- Fixed a crash in the server that would occur if a player resigned from an FFA game while all other players were done with their planning phase.
+
+
+# Release 1.0.0 (2020-10-12)
+
+### Accounts
+- Added Steam integration. When launching the game from Steam, you may be asked to enter a new username if your Steam nickname does not suffice. Beyond that, no registration is required.
+
+### Social
+- Added Steam Rich Presence integration, including Join Game functionality.
+
+### Gameplay
+- Decreased the self-upgrade cost of the Town tile to 4, down from 10.
+
+### Content
+- Updated the credits.
+
+### Visuals & User Interface
+- Reworked the main menu with brand new art. Menu art panning can be disabled in the Settings menu.
+- Added tooltip cards when hovering an order in the order context menu.
+- Improved the default color palette.
+- Added a high constrast color palette, especially geared towards colorblind players. This can be enabled in the Settings menu.
+- Added a color palette option to the Settings menu.
+- Added language options to the Settings menu. Language options other than English are thanks to [our online community translation effort](https://www.localizor.com/epicinium) and may be incomplete.
+- Added a scrollbar to scrollable layouts that exceed their frame height.
+- Reduced the transparency of various forms and tooltips.
+- Changed font to GNU Unifont.
+- Changed default font size to 16 (down from 20).
+- Added a option in the Settings menu to increase font size to 150%.
+
+### Audio
+- Revamped title theme.
+- An alternative version of the title theme now plays on the multiplayer menu.
+- Added new in-game music that plays during the Planning phase based on the current season.
+- Added new in-game music that players during the Action phase.
+- Added additional in-game sound effects.
+- Added sound effects to menu buttons.
+
+### Bugfixes
+- Fixed an issue where the lower half of unit figures could be obscured by City buildings.
+- Fixed an errant pixel in the phase graphic.
+- Fixed an issue where a segment of the tutorial could be skipped accidentally.
+- Fixed some layout issues on smaller resolutions.
+- Fixed a bug where windowed mode could default to an unusably small resolution.
+
+### Technical
+- Added support for Unicode characters in UI and chat.
+- Improved line wrapping in overlong text fields.
+- Added a version string to the bottom of the feedback menu to help with debugging.
+
+
+# Release 0.35.0 (2020-08-11)
 
 ### Accounts
 - Lowered the rating increase percentage for two-player games played outside of One vs One lobbies to 5% per human player, down from 10%. Also lowered the rating decrease percentage for these matches to 5%, down from 10%.
