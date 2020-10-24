@@ -1,9 +1,20 @@
-## Patch 1.0.5 (2020-10-20)
+## Patch 1.0.6 (2020-10-22)
 
 <!-- SUMMARY
-Ending a game with a score lower than your current rating increases your rating by 0.1 instead of decreasing it by a percentage.
-Fixed a bug where clients were kicked when copying AI opponents.
+Lowered volume of explosion and bombard sound effects.
+Restored translation support on Windows.
 -->
+
+*This is a Windows-only patch that is compatible with release 1.0.0.*
+
+### Audio
+- Lowered volume of explosion and bombard sound effects.
+
+### Techninal
+- Restored translation support on Windows.
+
+
+## Patch 1.0.5 (2020-10-20)
 
 *This is a server-only hotfix that is compatible with release 1.0.0.*
 
