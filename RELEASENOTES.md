@@ -1,9 +1,16 @@
-## Patch 1.0.6 (2020-10-22)
-
 <!-- SUMMARY
-Lowered volume of explosion and bombard sound effects.
-Restored translation support on Windows.
+The game asks for confirmation after changing screen resolution or other visual settings and reverts automatically if not confirmed.
 -->
+
+## Patch 1.0.7 (2020-11-09)
+
+*This is a Windows-only patch that is compatible with release 1.0.0.*
+
+### Visuals & User Interface
+- The game asks for confirmation after changing screen resolution or other visual settings and reverts automatically if not confirmed.
+
+
+## Patch 1.0.6 (2020-10-22)
 
 *This is a Windows-only patch that is compatible with release 1.0.0.*
 
