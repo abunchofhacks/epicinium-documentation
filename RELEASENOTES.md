@@ -1,6 +1,40 @@
 <!-- SUMMARY
-The game asks for confirmation after changing screen resolution or other visual settings and reverts automatically if not confirmed.
+Added the Map Editor.
+Increased the size of small8ffa and cornered8ffa to 32 by 32 by adding Water tiles in order to balance out the advance of global warming.
 -->
+
+## Patch 1.0.10 (2020-12-24)
+
+*This is a Windows-only patch that is compatible with release 1.0.0.*
+
+### Content
+- Added the Map Editor to the main menu.
+- Increased the size of *small8ffa* and *cornered8ffa* to 32 by 32 by adding Water tiles in order to balance out the advance of global warming.
+- Updated the credits.
+
+### Visuals & User Interface
+- Updated the panel pictures in the multiplayer menu that showed outdated graphics.
+
+### Bugfixes
+- Fixed a bug where tooltips for Frostbite could show when hovering a tile in the fog of war.
+
+
+## Patch 1.0.9 (2020-11-27)
+
+*This is a server-only patch that is compatible with release 1.0.0.*
+
+### Accounts
+- Ending a game as the winner with a score of 0 also causes your rating to increase by 0.1, instead of decrease by a percentage.
+
+### Content
+- Added the ChargingCheetah AI. This aggressive AI made by Zanath is based on HungryHippo but uses Gunners and Sappers in an early rush strategy.
+
+### Bugfixes
+- Fixed a bug where HungryHippo would not create Rifleman units.
+
+### Technical
+- Improved NeuralNewt's brain with additional training.
+
 
 ## Patch 1.0.7 (2020-11-09)
 
