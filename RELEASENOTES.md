@@ -1,7 +1,32 @@
 <!-- SUMMARY
-Added the Map Editor.
-Increased the size of small8ffa and cornered8ffa to 32 by 32 by adding Water tiles in order to balance out the advance of global warming.
+Players that are defeated before the game ends are granted global vision.
 -->
+
+## Patch 1.0.12 (2021-05-17)
+
+*This is a server-only patch that is compatible with release 1.0.0.*
+
+### Content
+- Added more user-made maps.
+
+### Gameplay
+- Players that are defeated before the game ends are granted global vision.
+
+### Bugfixes
+- Fixed a bug where rejoining a lobby after resigning as a player would not grant global vision.
+- Fixed a bug where, after a bypass attack, the bypassed unit was not involved in the retaliation damage.
+
+
+## Patch 1.0.11 (2021-03-12)
+
+*This is a server-only patch that is compatible with release 1.0.0.*
+
+### Content
+- Added various user-made maps.
+
+### Bugfixes
+- Fixed a bug where NeuralNewt AI could be selected on maps bigger than 20x13, resulting in a server crash.
+
 
 ## Patch 1.0.10 (2020-12-24)
 
