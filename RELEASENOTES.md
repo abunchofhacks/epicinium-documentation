@@ -1,8 +1,22 @@
 <!-- SUMMARY
-Added Steam Workshop support.
-Added a Campaign made by community member Zanath.
-Frostbite now causes units to become Chilled.
+Various bugfixes in the Campaign.
+Added settings to disable chat.
 -->
+
+## Patch 1.1.1 (2021-11-04)
+
+### Social
+- Removed the option to rename lobbies.
+- General chat ("ALL") and lobby chat ("LOBBY") can now be individually disabled in the Settings menu. This prevents you from sending or receiving chat messages.
+
+### Bugfixes
+- Fixed a bug involving invisible units in the Campaign.
+- Fixed a bug where Frostbite dealt damage in the Campaign.
+- Fixed a bug where Frostbite occurred in early Campaign levels.
+- Fixed a bug in the win condition of Act 3, Level 1.
+- Fixed a bug in Act 3, Level 4 which caused the enemy to keep a Zeppelin floating above their Airfield.
+- Fixed a visual glitch where enabling custom maps could cause you to play against a RampantRhino AI called "HungryHippo".
+- Prevent a crash that could occur in the Map Editor when cropping the map to 0 tiles.
 
 # Release 1.1.0 (2021-09-08)
 
